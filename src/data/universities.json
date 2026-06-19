@@ -1,0 +1,316 @@
+{
+  "ghiChu": "Đây là DỮ LIỆU MẪU (mock data) dùng để minh hoạ logic của ứng dụng, KHÔNG PHẢI điểm chuẩn chính thức từ các trường. Vui lòng thay thế bằng số liệu trong đề án tuyển sinh chính thức của từng trường trước khi sử dụng để tham khảo thật. Thang điểm: điểm chuẩn theo tổ hợp 3 môn, đã quy đổi về thang 30 (đã gồm điểm ưu tiên trung bình của thí sinh trúng tuyển năm đó).",
+  "capNhat": "2026-06-19",
+  "truong": [
+    {
+      "id": "bku",
+      "tenTruong": "Trường Đại học Bách Khoa - ĐHQG TP.HCM",
+      "vietTat": "BKU",
+      "nganh": [
+        {
+          "maNganh": "7480201",
+          "tenNganh": "Khoa học máy tính",
+          "toHop": ["A00", "A01", "D07"],
+          "diemChuan": { "2023": 28.5, "2024": 28.9, "2025": 27.8 }
+        },
+        {
+          "maNganh": "7520201",
+          "tenNganh": "Kỹ thuật điện - điện tử",
+          "toHop": ["A00", "A01"],
+          "diemChuan": { "2023": 26.0, "2024": 26.4, "2025": 25.8 }
+        },
+        {
+          "maNganh": "7510605",
+          "tenNganh": "Logistics và Quản lý chuỗi cung ứng",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 27.0, "2024": 27.3, "2025": 26.5 }
+        },
+        {
+          "maNganh": "7510601",
+          "tenNganh": "Quản lý công nghiệp",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 25.0, "2024": 25.3, "2025": 24.6 }
+        }
+      ]
+    },
+    {
+      "id": "hcmus",
+      "tenTruong": "Trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM",
+      "vietTat": "HCMUS",
+      "nganh": [
+        {
+          "maNganh": "7480101",
+          "tenNganh": "Khoa học máy tính",
+          "toHop": ["A00", "A01", "D07"],
+          "diemChuan": { "2023": 27.8, "2024": 28.0, "2025": 27.2 }
+        },
+        {
+          "maNganh": "7420201",
+          "tenNganh": "Công nghệ sinh học",
+          "toHop": ["B00", "A02", "D08"],
+          "diemChuan": { "2023": 23.5, "2024": 23.8, "2025": 23.0 }
+        },
+        {
+          "maNganh": "7440112",
+          "tenNganh": "Hóa học",
+          "toHop": ["A00", "B00", "D07"],
+          "diemChuan": { "2023": 21.0, "2024": 21.5, "2025": 20.8 }
+        },
+        {
+          "maNganh": "7460108",
+          "tenNganh": "Khoa học dữ liệu",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 26.5, "2024": 26.8, "2025": 26.0 }
+        }
+      ]
+    },
+    {
+      "id": "ueh",
+      "tenTruong": "Trường Đại học Kinh tế TP.HCM",
+      "vietTat": "UEH",
+      "nganh": [
+        {
+          "maNganh": "7340120",
+          "tenNganh": "Kinh doanh quốc tế",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 27.0, "2024": 27.4, "2025": 26.7 }
+        },
+        {
+          "maNganh": "7340115",
+          "tenNganh": "Marketing",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 26.8, "2024": 27.0, "2025": 26.3 }
+        },
+        {
+          "maNganh": "7340201",
+          "tenNganh": "Tài chính - Ngân hàng",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 26.5, "2024": 26.7, "2025": 26.0 }
+        },
+        {
+          "maNganh": "7340301",
+          "tenNganh": "Kế toán",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 25.8, "2024": 26.0, "2025": 25.3 }
+        }
+      ]
+    },
+    {
+      "id": "hcmute",
+      "tenTruong": "Trường Đại học Sư phạm Kỹ thuật TP.HCM",
+      "vietTat": "HCMUTE",
+      "nganh": [
+        {
+          "maNganh": "7510205",
+          "tenNganh": "Công nghệ kỹ thuật ô tô",
+          "toHop": ["A00", "A01"],
+          "diemChuan": { "2023": 24.0, "2024": 24.3, "2025": 23.6 }
+        },
+        {
+          "maNganh": "7480201",
+          "tenNganh": "Công nghệ thông tin",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 25.5, "2024": 25.8, "2025": 25.0 }
+        },
+        {
+          "maNganh": "7580101",
+          "tenNganh": "Kiến trúc",
+          "toHop": ["A00", "A01"],
+          "diemChuan": { "2023": 23.0, "2024": 23.2, "2025": 22.6 }
+        },
+        {
+          "maNganh": "7140231",
+          "tenNganh": "Sư phạm tiếng Anh",
+          "toHop": ["D01"],
+          "diemChuan": { "2023": 24.5, "2024": 24.8, "2025": 24.0 }
+        }
+      ]
+    },
+    {
+      "id": "uit",
+      "tenTruong": "Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM",
+      "vietTat": "UIT",
+      "nganh": [
+        {
+          "maNganh": "7480101",
+          "tenNganh": "Khoa học máy tính",
+          "toHop": ["A00", "A01", "D07"],
+          "diemChuan": { "2023": 27.5, "2024": 27.8, "2025": 27.0 }
+        },
+        {
+          "maNganh": "7480202",
+          "tenNganh": "An toàn thông tin",
+          "toHop": ["A00", "A01", "D07"],
+          "diemChuan": { "2023": 27.0, "2024": 27.3, "2025": 26.5 }
+        },
+        {
+          "maNganh": "7480103",
+          "tenNganh": "Kỹ thuật phần mềm",
+          "toHop": ["A00", "A01", "D07"],
+          "diemChuan": { "2023": 26.8, "2024": 27.0, "2025": 26.2 }
+        },
+        {
+          "maNganh": "7480104",
+          "tenNganh": "Hệ thống thông tin",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 25.5, "2024": 25.8, "2025": 25.0 }
+        }
+      ]
+    },
+    {
+      "id": "ftu2",
+      "tenTruong": "Trường Đại học Ngoại thương - Cơ sở II TP.HCM",
+      "vietTat": "FTU2",
+      "nganh": [
+        {
+          "maNganh": "7310106",
+          "tenNganh": "Kinh tế đối ngoại",
+          "toHop": ["A00", "A01", "D01", "D07"],
+          "diemChuan": { "2023": 27.8, "2024": 28.0, "2025": 27.3 }
+        },
+        {
+          "maNganh": "7340120",
+          "tenNganh": "Kinh doanh quốc tế",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 27.5, "2024": 27.8, "2025": 27.0 }
+        },
+        {
+          "maNganh": "7380101",
+          "tenNganh": "Luật",
+          "toHop": ["A00", "A01", "D01", "C00"],
+          "diemChuan": { "2023": 25.0, "2024": 25.3, "2025": 24.6 }
+        },
+        {
+          "maNganh": "7220201",
+          "tenNganh": "Ngôn ngữ Anh thương mại",
+          "toHop": ["D01"],
+          "diemChuan": { "2023": 26.0, "2024": 26.3, "2025": 25.5 }
+        }
+      ]
+    },
+    {
+      "id": "tdtu",
+      "tenTruong": "Trường Đại học Tôn Đức Thắng",
+      "vietTat": "TDTU",
+      "nganh": [
+        {
+          "maNganh": "7480201",
+          "tenNganh": "Công nghệ thông tin",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 25.0, "2024": 25.3, "2025": 24.6 }
+        },
+        {
+          "maNganh": "7580201",
+          "tenNganh": "Kỹ thuật xây dựng",
+          "toHop": ["A00", "A01"],
+          "diemChuan": { "2023": 21.0, "2024": 21.3, "2025": 20.6 }
+        },
+        {
+          "maNganh": "7340101",
+          "tenNganh": "Quản trị kinh doanh",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 24.5, "2024": 24.8, "2025": 24.0 }
+        },
+        {
+          "maNganh": "7720201",
+          "tenNganh": "Dược học",
+          "toHop": ["A00", "B00", "D07"],
+          "diemChuan": { "2023": 24.0, "2024": 24.3, "2025": 23.6 }
+        }
+      ]
+    },
+    {
+      "id": "hcmue",
+      "tenTruong": "Trường Đại học Sư phạm TP.HCM",
+      "vietTat": "HCMUE",
+      "nganh": [
+        {
+          "maNganh": "7140209",
+          "tenNganh": "Sư phạm Toán học",
+          "toHop": ["A00", "A01"],
+          "diemChuan": { "2023": 26.5, "2024": 26.8, "2025": 26.0 }
+        },
+        {
+          "maNganh": "7140217",
+          "tenNganh": "Sư phạm Ngữ văn",
+          "toHop": ["C00", "D01"],
+          "diemChuan": { "2023": 26.0, "2024": 26.3, "2025": 25.5 }
+        },
+        {
+          "maNganh": "7310401",
+          "tenNganh": "Tâm lý học giáo dục",
+          "toHop": ["C00", "D01", "B00"],
+          "diemChuan": { "2023": 22.5, "2024": 22.8, "2025": 22.0 }
+        },
+        {
+          "maNganh": "7140231",
+          "tenNganh": "Sư phạm tiếng Anh",
+          "toHop": ["D01"],
+          "diemChuan": { "2023": 27.0, "2024": 27.3, "2025": 26.5 }
+        }
+      ]
+    },
+    {
+      "id": "iuh",
+      "tenTruong": "Trường Đại học Công nghiệp TP.HCM",
+      "vietTat": "IUH",
+      "nganh": [
+        {
+          "maNganh": "7540101",
+          "tenNganh": "Công nghệ thực phẩm",
+          "toHop": ["A00", "B00", "D07"],
+          "diemChuan": { "2023": 21.5, "2024": 21.8, "2025": 21.0 }
+        },
+        {
+          "maNganh": "7340101",
+          "tenNganh": "Quản trị kinh doanh",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 22.0, "2024": 22.3, "2025": 21.5 }
+        },
+        {
+          "maNganh": "7340301",
+          "tenNganh": "Kế toán",
+          "toHop": ["A00", "A01", "D01"],
+          "diemChuan": { "2023": 21.8, "2024": 22.0, "2025": 21.3 }
+        },
+        {
+          "maNganh": "7510205",
+          "tenNganh": "Công nghệ kỹ thuật ô tô",
+          "toHop": ["A00", "A01"],
+          "diemChuan": { "2023": 20.5, "2024": 20.8, "2025": 20.0 }
+        }
+      ]
+    },
+    {
+      "id": "ump",
+      "tenTruong": "Trường Đại học Y Dược TP.HCM",
+      "vietTat": "UMP",
+      "nganh": [
+        {
+          "maNganh": "7720101",
+          "tenNganh": "Y khoa",
+          "toHop": ["B00"],
+          "diemChuan": { "2023": 29.5, "2024": 29.3, "2025": 28.9 }
+        },
+        {
+          "maNganh": "7720201",
+          "tenNganh": "Dược học",
+          "toHop": ["B00"],
+          "diemChuan": { "2023": 27.5, "2024": 27.2, "2025": 26.8 }
+        },
+        {
+          "maNganh": "7720501",
+          "tenNganh": "Răng - Hàm - Mặt",
+          "toHop": ["B00"],
+          "diemChuan": { "2023": 28.5, "2024": 28.2, "2025": 27.9 }
+        },
+        {
+          "maNganh": "7720301",
+          "tenNganh": "Điều dưỡng",
+          "toHop": ["B00", "A02", "D08"],
+          "diemChuan": { "2023": 24.5, "2024": 24.0, "2025": 23.5 }
+        }
+      ]
+    }
+  ]
+}
