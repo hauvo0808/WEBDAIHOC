@@ -19,7 +19,7 @@ export const STATUS = {
     key: 'risk',
     label: 'Nguy hiểm',
     badgeClass: 'bg-risk-500 text-white',
-    cardClass: 'border-risk-500/40',
+    cardClass: 'border-risk-500/40', 
     chipDot: 'bg-risk-500',
   },
 }
@@ -72,8 +72,13 @@ export function buildSchoolSuggestions(universitiesData, allCombinationResults) 
     }
   }
 
-  items.sort((a, b) => b.diemChuan2025 - a.diemChuan2025)
-  return items
+ const statusOrder = { pass: 0, maybe: 1, risk: 2 }
+items.sort((a, b) => {
+  const statusDiff = statusOrder[a.status.key] - statusOrder[b.status.key]
+  if (statusDiff !== 0) return statusDiff
+  return b.diemChuan2025 - a.diemChuan2025
+})
+return items
 }
 
 export function countByStatus(items) {
