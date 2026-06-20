@@ -12,12 +12,17 @@ export const COMBINATIONS = [
   { code: 'A06', group: 'A', subjects: ['toan', 'hoa', 'dia'] },
   { code: 'A07', group: 'A', subjects: ['toan', 'su', 'dia'] },
   { code: 'A08', group: 'A', subjects: ['toan', 'su', 'gdktpl'] },
+  { code: 'A09', group: 'A', subjects: ['toan', 'dia', 'gdktpl'] },
+  { code: 'A10', group: 'A', subjects: ['toan', 'ly', 'gdktpl'] },
+  { code: 'A11', group: 'A', subjects: ['toan', 'hoa', 'gdktpl'] },
 
   // Nhóm B
   { code: 'B00', group: 'B', subjects: ['toan', 'hoa', 'sinh'] },
   { code: 'B01', group: 'B', subjects: ['toan', 'sinh', 'su'] },
   { code: 'B02', group: 'B', subjects: ['toan', 'sinh', 'dia'] },
   { code: 'B03', group: 'B', subjects: ['toan', 'sinh', 'van'] },
+  { code: 'B04', group: 'B', subjects: ['toan', 'sinh', 'gdktpl'] },
+  { code: 'B08', group: 'B', subjects: ['toan', 'sinh', 'anh'] },
 
   // Nhóm C
   { code: 'C00', group: 'C', subjects: ['van', 'su', 'dia'] },
@@ -51,6 +56,13 @@ export const COMBINATIONS = [
   { code: 'D13', group: 'D', subjects: ['van', 'sinh', 'anh'] },
   { code: 'D14', group: 'D', subjects: ['van', 'su', 'anh'] },
   { code: 'D15', group: 'D', subjects: ['van', 'dia', 'anh'] },
+  { code: 'D16', group: 'D', subjects: ['toan', 'dia', 'duc'] },
+  { code: 'D17', group: 'D', subjects: ['toan', 'dia', 'nga'] },
+  { code: 'D18', group: 'D', subjects: ['toan', 'dia', 'nhat'] },
+  { code: 'D19', group: 'D', subjects: ['toan', 'dia', 'phap'] },
+  { code: 'D20', group: 'D', subjects: ['toan', 'dia', 'trung'] },
+  { code: 'D21', group: 'D', subjects: ['toan', 'hoa', 'duc'] },
+
 ]
 
 export const COMBINATION_MAP = COMBINATIONS.reduce((map, c) => {

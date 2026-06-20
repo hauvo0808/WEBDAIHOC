@@ -3,37 +3,6 @@
   "capNhat": "2026-06-19",
   "truong": [
     {
-      "id": "bku",
-      "tenTruong": "Trường Đại học Bách Khoa - ĐHQG TP.HCM",
-      "vietTat": "BKU",
-      "nganh": [
-        {
-          "maNganh": "7480201",
-          "tenNganh": "Khoa học máy tính",
-          "toHop": ["A00", "A01", "D07"],
-          "diemChuan": { "2023": 28.5, "2024": 28.9, "2025": 27.8 }
-        },
-        {
-          "maNganh": "7520201",
-          "tenNganh": "Kỹ thuật điện - điện tử",
-          "toHop": ["A00", "A01"],
-          "diemChuan": { "2023": 26.0, "2024": 26.4, "2025": 25.8 }
-        },
-        {
-          "maNganh": "7510605",
-          "tenNganh": "Logistics và Quản lý chuỗi cung ứng",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 27.0, "2024": 27.3, "2025": 26.5 }
-        },
-        {
-          "maNganh": "7510601",
-          "tenNganh": "Quản lý công nghiệp",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 25.0, "2024": 25.3, "2025": 24.6 }
-        }
-      ]
-    },
-    {
       "id": "hcmus",
       "tenTruong": "Trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM",
       "vietTat": "HCMUS",
@@ -41,276 +10,2125 @@
         {
           "maNganh": "7480101",
           "tenNganh": "Khoa học máy tính",
-          "toHop": ["A00", "A01", "D07"],
-          "diemChuan": { "2023": 27.8, "2024": 28.0, "2025": 27.2 }
+          "toHop": ["A00", "A01", "D07","B08"],
+          "diemChuan": { "2023": 27.2, "2024": 28.20, "2025": 28.5 }
+        },
+         {
+          "maNganh": "7480201_NN",
+          "tenNganh": "Nhóm ngành Máy tính và CNTT",
+          "toHop": ["A00", "A01", "D07","D08"],
+          "diemChuan": { "2023": 26.5, "2024": 27.25, "2025": 27.45 }
+        },
+         {
+          "maNganh": "7520201_BD",
+          "tenNganh": "Công nghệ vi mạch bán dẫn",
+          "toHop": ["A00", "A01", "D07","D08"],
+          "diemChuan": { "2023": 0, "2024": 25, "2025": 26.2 }
         },
         {
           "maNganh": "7420201",
           "tenNganh": "Công nghệ sinh học",
-          "toHop": ["B00", "A02", "D08"],
-          "diemChuan": { "2023": 23.5, "2024": 23.8, "2025": 23.0 }
+          "toHop": ["B00","B08","D07", "D08"],
+          "diemChuan": { "2023": 23.5, "2024": 24.1, "2025": 24.5 }
         },
         {
           "maNganh": "7440112",
           "tenNganh": "Hóa học",
-          "toHop": ["A00", "B00", "D07"],
-          "diemChuan": { "2023": 21.0, "2024": 21.5, "2025": 20.8 }
+          "toHop": ["A00", "B00", "D07","D08"],
+          "diemChuan": { "2023": 23.20, "2024": 23.8, "2025": 24.00 }
         },
         {
           "maNganh": "7460108",
           "tenNganh": "Khoa học dữ liệu",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 26.5, "2024": 26.8, "2025": 26.0 }
+          "toHop": ["A00", "A01", "D01","D08"],
+          "diemChuan": { "2023": 26.5, "2024": 26.85, "2025": 27.0 }
+        },
+        {
+          "maNganh": "7460101 ",
+          "tenNganh": "Toán học ",
+          "toHop": ["A00", "A01", "D07","D08"],
+          "diemChuan": { "2023": 24, "2024": 24.75, "2025": 25.10 }
+        },
+        {
+          "maNganh": "7520207",
+          "tenNganh": "Kỹ thuật Điện tử - Viễn thông",
+          "toHop": ["A00", "A01", "D07","D08"],
+          "diemChuan": { "2023": 24.5, "2024": 24.85, "2025": 25.0 }
+        },
+        {
+          "maNganh": "7520403",
+          "tenNganh": "Vật lý Y khoa",
+          "toHop": ["A00", "A01", "B00","D07"],
+          "diemChuan": { "2023": 21.5, "2024": 22.85, "2025": 22.0 }
+        },
+        {
+          "maNganh": "7440301",
+          "tenNganh": "Khoa học Môi trường",
+          "toHop": ["A00", "D08", "B00","D07"],
+          "diemChuan": { "2023": 17, "2024": 19.85, "2025": 19.0 }
         }
       ]
     },
     {
-      "id": "ueh",
-      "tenTruong": "Trường Đại học Kinh tế TP.HCM",
-      "vietTat": "UEH",
-      "nganh": [
-        {
-          "maNganh": "7340120",
-          "tenNganh": "Kinh doanh quốc tế",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 27.0, "2024": 27.4, "2025": 26.7 }
-        },
-        {
-          "maNganh": "7340115",
-          "tenNganh": "Marketing",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 26.8, "2024": 27.0, "2025": 26.3 }
-        },
-        {
-          "maNganh": "7340201",
-          "tenNganh": "Tài chính - Ngân hàng",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 26.5, "2024": 26.7, "2025": 26.0 }
-        },
-        {
-          "maNganh": "7340301",
-          "tenNganh": "Kế toán",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 25.8, "2024": 26.0, "2025": 25.3 }
-        }
-      ]
+  "id": "hcmussh",
+  "tenTruong": "Trường Đại học Khoa học Xã hội và Nhân văn - ĐHQG TP.HCM",
+  "vietTat": "HCMUSSH",
+  "nganh": [
+    {
+      "maNganh": "7320101",
+      "tenNganh": "Báo chí (Hệ chuẩn)",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 28.00,
+        "2024": 27.85,
+        "2025": 27.95
+      }
     },
     {
-      "id": "hcmute",
-      "tenTruong": "Trường Đại học Sư phạm Kỹ thuật TP.HCM",
-      "vietTat": "HCMUTE",
-      "nganh": [
-        {
-          "maNganh": "7510205",
-          "tenNganh": "Công nghệ kỹ thuật ô tô",
-          "toHop": ["A00", "A01"],
-          "diemChuan": { "2023": 24.0, "2024": 24.3, "2025": 23.6 }
-        },
-        {
-          "maNganh": "7480201",
-          "tenNganh": "Công nghệ thông tin",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 25.5, "2024": 25.8, "2025": 25.0 }
-        },
-        {
-          "maNganh": "7580101",
-          "tenNganh": "Kiến trúc",
-          "toHop": ["A00", "A01"],
-          "diemChuan": { "2023": 23.0, "2024": 23.2, "2025": 22.6 }
-        },
-        {
-          "maNganh": "7140231",
-          "tenNganh": "Sư phạm tiếng Anh",
-          "toHop": ["D01"],
-          "diemChuan": { "2023": 24.5, "2024": 24.8, "2025": 24.0 }
-        }
-      ]
+      "maNganh": "7320101",
+      "tenNganh": "Báo chí (Hệ chuẩn)",
+      "toHop": [
+        "D01",
+        "D14"
+      ],
+      "diemChuan": {
+        "2023": 27.00,
+        "2024": 26.70,
+        "2025": 26.80
+      }
     },
     {
-      "id": "uit",
-      "tenTruong": "Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM",
-      "vietTat": "UIT",
-      "nganh": [
-        {
-          "maNganh": "7480101",
-          "tenNganh": "Khoa học máy tính",
-          "toHop": ["A00", "A01", "D07"],
-          "diemChuan": { "2023": 27.5, "2024": 27.8, "2025": 27.0 }
-        },
-        {
-          "maNganh": "7480202",
-          "tenNganh": "An toàn thông tin",
-          "toHop": ["A00", "A01", "D07"],
-          "diemChuan": { "2023": 27.0, "2024": 27.3, "2025": 26.5 }
-        },
-        {
-          "maNganh": "7480103",
-          "tenNganh": "Kỹ thuật phần mềm",
-          "toHop": ["A00", "A01", "D07"],
-          "diemChuan": { "2023": 26.8, "2024": 27.0, "2025": 26.2 }
-        },
-        {
-          "maNganh": "7480104",
-          "tenNganh": "Hệ thống thông tin",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 25.5, "2024": 25.8, "2025": 25.0 }
-        }
-      ]
+      "maNganh": "7320104",
+      "tenNganh": "Truyền thông đa phương tiện",
+      "toHop": [
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "diemChuan": {
+        "2023": 27.25,
+        "2024": 27.10,
+        "2025": 27.30
+      }
     },
     {
-      "id": "ftu2",
-      "tenTruong": "Trường Đại học Ngoại thương - Cơ sở II TP.HCM",
-      "vietTat": "FTU2",
-      "nganh": [
-        {
-          "maNganh": "7310106",
-          "tenNganh": "Kinh tế đối ngoại",
-          "toHop": ["A00", "A01", "D01", "D07"],
-          "diemChuan": { "2023": 27.8, "2024": 28.0, "2025": 27.3 }
-        },
-        {
-          "maNganh": "7340120",
-          "tenNganh": "Kinh doanh quốc tế",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 27.5, "2024": 27.8, "2025": 27.0 }
-        },
-        {
-          "maNganh": "7380101",
-          "tenNganh": "Luật",
-          "toHop": ["A00", "A01", "D01", "C00"],
-          "diemChuan": { "2023": 25.0, "2024": 25.3, "2025": 24.6 }
-        },
-        {
-          "maNganh": "7220201",
-          "tenNganh": "Ngôn ngữ Anh thương mại",
-          "toHop": ["D01"],
-          "diemChuan": { "2023": 26.0, "2024": 26.3, "2025": 25.5 }
-        }
-      ]
+      "maNganh": "7810103",
+      "tenNganh": "Quản trị dịch vụ du lịch & lữ hành",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 27.40,
+        "2024": 27.20,
+        "2025": 27.50
+      }
     },
     {
-      "id": "tdtu",
-      "tenTruong": "Trường Đại học Tôn Đức Thắng",
-      "vietTat": "TDTU",
-      "nganh": [
-        {
-          "maNganh": "7480201",
-          "tenNganh": "Công nghệ thông tin",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 25.0, "2024": 25.3, "2025": 24.6 }
-        },
-        {
-          "maNganh": "7580201",
-          "tenNganh": "Kỹ thuật xây dựng",
-          "toHop": ["A00", "A01"],
-          "diemChuan": { "2023": 21.0, "2024": 21.3, "2025": 20.6 }
-        },
-        {
-          "maNganh": "7340101",
-          "tenNganh": "Quản trị kinh doanh",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 24.5, "2024": 24.8, "2025": 24.0 }
-        },
-        {
-          "maNganh": "7720201",
-          "tenNganh": "Dược học",
-          "toHop": ["A00", "B00", "D07"],
-          "diemChuan": { "2023": 24.0, "2024": 24.3, "2025": 23.6 }
-        }
-      ]
+      "maNganh": "7810103",
+      "tenNganh": "Quản trị dịch vụ du lịch & lữ hành",
+      "toHop": [
+        "D01",
+        "D14"
+      ],
+      "diemChuan": {
+        "2023": 25.80,
+        "2024": 25.50,
+        "2025": 25.90
+      }
     },
     {
-      "id": "hcmue",
-      "tenTruong": "Trường Đại học Sư phạm TP.HCM",
-      "vietTat": "HCMUE",
-      "nganh": [
-        {
-          "maNganh": "7140209",
-          "tenNganh": "Sư phạm Toán học",
-          "toHop": ["A00", "A01"],
-          "diemChuan": { "2023": 26.5, "2024": 26.8, "2025": 26.0 }
-        },
-        {
-          "maNganh": "7140217",
-          "tenNganh": "Sư phạm Ngữ văn",
-          "toHop": ["C00", "D01"],
-          "diemChuan": { "2023": 26.0, "2024": 26.3, "2025": 25.5 }
-        },
-        {
-          "maNganh": "7310401",
-          "tenNganh": "Tâm lý học giáo dục",
-          "toHop": ["C00", "D01", "B00"],
-          "diemChuan": { "2023": 22.5, "2024": 22.8, "2025": 22.0 }
-        },
-        {
-          "maNganh": "7140231",
-          "tenNganh": "Sư phạm tiếng Anh",
-          "toHop": ["D01"],
-          "diemChuan": { "2023": 27.0, "2024": 27.3, "2025": 26.5 }
-        }
-      ]
+      "maNganh": "7310401",
+      "tenNganh": "Tâm lý học",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 27.00,
+        "2024": 26.80,
+        "2025": 27.10
+      }
     },
     {
-      "id": "iuh",
-      "tenTruong": "Trường Đại học Công nghiệp TP.HCM",
-      "vietTat": "IUH",
-      "nganh": [
-        {
-          "maNganh": "7540101",
-          "tenNganh": "Công nghệ thực phẩm",
-          "toHop": ["A00", "B00", "D07"],
-          "diemChuan": { "2023": 21.5, "2024": 21.8, "2025": 21.0 }
-        },
-        {
-          "maNganh": "7340101",
-          "tenNganh": "Quản trị kinh doanh",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 22.0, "2024": 22.3, "2025": 21.5 }
-        },
-        {
-          "maNganh": "7340301",
-          "tenNganh": "Kế toán",
-          "toHop": ["A00", "A01", "D01"],
-          "diemChuan": { "2023": 21.8, "2024": 22.0, "2025": 21.3 }
-        },
-        {
-          "maNganh": "7510205",
-          "tenNganh": "Công nghệ kỹ thuật ô tô",
-          "toHop": ["A00", "A01"],
-          "diemChuan": { "2023": 20.5, "2024": 20.8, "2025": 20.0 }
-        }
-      ]
+      "maNganh": "7310401",
+      "tenNganh": "Tâm lý học",
+      "toHop": [
+        "D01",
+        "D14"
+      ],
+      "diemChuan": {
+        "2023": 25.50,
+        "2024": 25.70,
+        "2025": 26.00
+      }
     },
     {
-      "id": "ump",
-      "tenTruong": "Trường Đại học Y Dược TP.HCM",
-      "vietTat": "UMP",
-      "nganh": [
-        {
-          "maNganh": "7720101",
-          "tenNganh": "Y khoa",
-          "toHop": ["B00"],
-          "diemChuan": { "2023": 29.5, "2024": 29.3, "2025": 28.9 }
-        },
-        {
-          "maNganh": "7720201",
-          "tenNganh": "Dược học",
-          "toHop": ["B00"],
-          "diemChuan": { "2023": 27.5, "2024": 27.2, "2025": 26.8 }
-        },
-        {
-          "maNganh": "7720501",
-          "tenNganh": "Răng - Hàm - Mặt",
-          "toHop": ["B00"],
-          "diemChuan": { "2023": 28.5, "2024": 28.2, "2025": 27.9 }
-        },
-        {
-          "maNganh": "7720301",
-          "tenNganh": "Điều dưỡng",
-          "toHop": ["B00", "A02", "D08"],
-          "diemChuan": { "2023": 24.5, "2024": 24.0, "2025": 23.5 }
-        }
-      ]
+      "maNganh": "7310206",
+      "tenNganh": "Quan hệ quốc tế",
+      "toHop": [
+        "D01",
+        "D14",
+        "D15"
+      ],
+      "diemChuan": {
+        "2023": 26.45,
+        "2024": 26.50,
+        "2025": 26.75
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 25.55,
+        "2024": 25.70,
+        "2025": 25.95
+      }
+    },
+    {
+      "maNganh": "7310608",
+      "tenNganh": "Hàn Quốc học",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 27.00,
+        "2024": 26.50,
+        "2025": 26.85
+      }
+    },
+    {
+      "maNganh": "7310608",
+      "tenNganh": "Hàn Quốc học",
+      "toHop": [
+        "D01",
+        "D78"
+      ],
+      "diemChuan": {
+        "2023": 25.65,
+        "2024": 25.20,
+        "2025": 25.50
+      }
+    },
+    {
+      "maNganh": "7310613",
+      "tenNganh": "Nhật Bản học",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 25.80,
+        "2024": 25.50,
+        "2025": 25.90
+      }
+    },
+    {
+      "maNganh": "7310613",
+      "tenNganh": "Nhật Bản học",
+      "toHop": [
+        "D01",
+        "D06"
+      ],
+      "diemChuan": {
+        "2023": 25.00,
+        "2024": 24.80,
+        "2025": 25.20
+      }
+    },
+    {
+      "maNganh": "7320205",
+      "tenNganh": "Quản trị thông tin",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 24.60,
+        "2024": 24.00,
+        "2025": 24.50
+      }
+    },
+    {
+      "maNganh": "7320205",
+      "tenNganh": "Quản trị thông tin",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 23.50,
+        "2024": 23.20,
+        "2025": 23.60
+      }
+    },
+    {
+      "maNganh": "7310301",
+      "tenNganh": "Xã hội học",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 25.10,
+        "2024": 24.50,
+        "2025": 24.90
+      }
+    },
+    {
+      "maNganh": "7310301",
+      "tenNganh": "Xã hội học",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 23.80,
+        "2024": 23.00,
+        "2025": 23.40
+      }
     }
+  ]
+},
+    {
+  "id": "hcmiu",
+  "tenTruong": "Trường Đại học Quốc tế - ĐHQG TP.HCM",
+  "vietTat": "HCMIU",
+  "nganh": [
+    {
+      "maNganh": "7510605",
+      "tenNganh": "Logistics và Quản lý chuỗi cung ứng",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 25.25,
+        "2024": 24.50,
+        "2025": 24.75
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 25.00,
+        "2024": 24.50,
+        "2025": 24.50
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị Kinh doanh",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 24.00,
+        "2024": 23.50,
+        "2025": 24.00
+      }
+    },
+    {
+      "maNganh": "7480101",
+      "tenNganh": "Khoa học Máy tính",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 25.00,
+        "2024": 24.00,
+        "2025": 24.25
+      }
+    },
+    {
+      "maNganh": "7480109",
+      "tenNganh": "Kỹ thuật Khoa học Dữ liệu",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 23.00,
+        "2024": 22.00,
+        "2025": 22.50
+      }
+    },
+    {
+      "maNganh": "7420201",
+      "tenNganh": "Công nghệ Sinh học",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 20.00,
+        "2024": 21.00,
+        "2025": 21.00
+      }
+    },
+    {
+      "maNganh": "7520130",
+      "tenNganh": "Kỹ thuật Ô tô",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 21.50,
+        "2025": 21.50
+      }
+    },
+    {
+      "maNganh": "7520212",
+      "tenNganh": "Kỹ thuật Y sinh",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 20.00,
+        "2025": 20.00
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 23.50,
+        "2024": 23.00,
+        "2025": 23.25
+      }
+    },
+    {
+      "maNganh": "7520120",
+      "tenNganh": "Kỹ thuật Không gian (Ngành đặc biệt)",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 18.50
+      }
+    }
+  ]
+},
+    {
+  "id": "uit",
+  "tenTruong": "Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM",
+  "vietTat": "UIT",
+  "nganh": [
+    {
+      "maNganh": "7480107",
+      "tenNganh": "Trí tuệ Nhân tạo (AI)",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 27.80,
+        "2024": 28.40,
+        "2025": 28.60
+      }
+    },
+    {
+      "maNganh": "7480101",
+      "tenNganh": "Khoa học Máy tính",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.90,
+        "2024": 27.40,
+        "2025": 27.55
+      }
+    },
+    {
+      "maNganh": "7480103",
+      "tenNganh": "Kỹ thuật Phần mềm",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.90,
+        "2024": 27.55,
+        "2025": 27.70
+      }
+    },
+    {
+      "maNganh": "7480109",
+      "tenNganh": "Khoa học Dữ liệu",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.40,
+        "2024": 27.00,
+        "2025": 27.15
+      }
+    },
+    {
+      "maNganh": "7480202",
+      "tenNganh": "An toàn Thông tin",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.30,
+        "2024": 26.90,
+        "2025": 27.05
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ Thông tin",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.50,
+        "2024": 27.00,
+        "2025": 27.10
+      }
+    },
+    {
+      "maNganh": "7520202",
+      "tenNganh": "Thiết kế Vi mạch",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 26.00,
+        "2025": 26.80
+      }
+    },
+    {
+      "maNganh": "7480106",
+      "tenNganh": "Kỹ thuật Máy tính",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 25.60,
+        "2024": 26.40,
+        "2025": 26.50
+      }
+    },
+    {
+      "maNganh": "7480104",
+      "tenNganh": "Hệ thống Thông tin",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.10,
+        "2024": 26.60,
+        "2025": 26.75
+      }
+    },
+    {
+      "maNganh": "7340122",
+      "tenNganh": "Thương mại Điện tử",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 26.20,
+        "2024": 26.70,
+        "2025": 26.85
+      }
+    }
+  ]
+},
+    {
+  "id": "uel",
+  "tenTruong": "Trường Đại học Kinh tế - Luật - ĐHQG TP.HCM",
+  "vietTat": "UEL",
+  "nganh": [
+    {
+      "maNganh": "7340122",
+      "tenNganh": "Thương mại điện tử",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 27.48,
+        "2024": 27.85,
+        "2025": 28.10
+      }
+    },
+    {
+      "maNganh": "7310106",
+      "tenNganh": "Kinh tế đối ngoại",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 27.21,
+        "2024": 27.55,
+        "2025": 27.70
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 27.10,
+        "2024": 27.40,
+        "2025": 27.55
+      }
+    },
+    {
+      "maNganh": "7340115",
+      "tenNganh": "Marketing",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 26.90,
+        "2024": 27.30,
+        "2025": 27.45
+      }
+    },
+    {
+      "maNganh": "7340205",
+      "tenNganh": "Công nghệ tài chính (Fintech)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 26.20,
+        "2024": 26.95,
+        "2025": 27.15
+      }
+    },
+    {
+      "maNganh": "7340302",
+      "tenNganh": "Kiểm toán",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 26.10,
+        "2024": 26.60,
+        "2025": 26.75
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 25.80,
+        "2024": 26.30,
+        "2025": 26.50
+      }
+    },
+    {
+      "maNganh": "7380107",
+      "tenNganh": "Luật Kinh tế",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 26.20,
+        "2024": 26.70,
+        "2025": 26.90
+      }
+    },
+    {
+      "maNganh": "7380109",
+      "tenNganh": "Luật Thương mại quốc tế",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 26.00,
+        "2024": 26.55,
+        "2025": 26.80
+      }
+    },
+    {
+      "maNganh": "7340405",
+      "tenNganh": "Hệ thống thông tin quản lý",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 25.50,
+        "2024": 26.20,
+        "2025": 26.45
+      }
+    }
+  ]
+},
+    {
+  "id": "agu",
+  "tenTruong": "Trường Đại học An Giang - ĐHQG TP.HCM",
+  "vietTat": "AGU",
+  "nganh": [
+    {
+      "maNganh": "7140217",
+      "tenNganh": "Sư phạm Ngữ văn",
+      "toHop": [
+        "C00",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 27.21,
+        "2024": 27.85,
+        "2025": 28.15
+      }
+    },
+    {
+      "maNganh": "7140209",
+      "tenNganh": "Sư phạm Toán học",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 25.90,
+        "2024": 26.50,
+        "2025": 26.80
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 20.00,
+        "2024": 21.50,
+        "2025": 22.00
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 21.20,
+        "2024": 22.10,
+        "2025": 22.50
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 18.50,
+        "2024": 19.50,
+        "2025": 20.00
+      }
+    },
+    {
+      "maNganh": "7540101",
+      "tenNganh": "Công nghệ thực phẩm",
+      "toHop": [
+        "A00",
+        "B00",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 17.00,
+        "2025": 18.00
+      }
+    },
+    {
+      "maNganh": "7620109",
+      "tenNganh": "Nông học",
+      "toHop": [
+        "A00",
+        "B00",
+        "B08"
+      ],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.50,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7620105",
+      "tenNganh": "Chăn nuôi",
+      "toHop": [
+        "A00",
+        "B00",
+        "B08"
+      ],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 16.50
+      }
+    },
+    {
+      "maNganh": "7480103",
+      "tenNganh": "Kỹ thuật phần mềm",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 20.00,
+        "2025": 21.00
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 19.00,
+        "2025": 19.50
+      }
+    }
+  ]
+},
+    {
+  "id": "uhs",
+  "tenTruong": "Trường Đại học Khoa học Sức khỏe - ĐHQG TP.HCM",
+  "vietTat": "UHS",
+  "nganh": [
+    {
+      "maNganh": "7720101",
+      "tenNganh": "Y khoa",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 26.15,
+        "2024": 26.40,
+        "2025": 25.60
+      }
+    },
+    {
+      "maNganh": "7720501",
+      "tenNganh": "Răng - Hàm - Mặt",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 26.15,
+        "2024": 26.33,
+        "2025": 25.00
+      }
+    },
+    {
+      "maNganh": "7720201",
+      "tenNganh": "Dược học",
+      "toHop": [
+        "B00",
+        "A00"
+      ],
+      "diemChuan": {
+        "2023": 25.50,
+        "2024": 25.31,
+        "2025": 21.50
+      }
+    },
+    {
+      "maNganh": "7720115",
+      "tenNganh": "Y học cổ truyền",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 24.55,
+        "2024": 24.24,
+        "2025": 20.10
+      }
+    },
+    {
+      "maNganh": "7720301",
+      "tenNganh": "Điều dưỡng",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 22.30,
+        "2024": 22.60,
+        "2025": 18.00
+      }
+    }
+  ]
+},
+    {
+  "id": "dhannd",
+  "tenTruong": "Trường Đại học An ninh Nhân dân",
+  "vietTat": "DHANND",
+  "nganh": [
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nam - Vùng 4)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 20.60,
+        "2024": 21.43,
+        "2025": 22.68
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nữ - Vùng 4)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 24.16,
+        "2024": 21.85,
+        "2025": 26.05
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nam - Vùng 5)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 20.45,
+        "2024": 20.57,
+        "2025": 23.48
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nữ - Vùng 5)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 24.14,
+        "2024": 21.66,
+        "2025": 25.33
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nam - Vùng 6)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 18.62,
+        "2024": 19.07,
+        "2025": 23.28
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nữ - Vùng 6)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 22.37,
+        "2024": 21.68,
+        "2025": 25.83
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nam - Vùng 7)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 21.14,
+        "2024": 20.84,
+        "2025": 22.47
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nữ - Vùng 7)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 23.66,
+        "2024": 21.70,
+        "2025": 25.28
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nam - Vùng 8)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 19.20,
+        "2024": 20.18,
+        "2025": 17.66
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ An ninh (Nữ - Vùng 8)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 18.10,
+        "2024": 21.32,
+        "2025": 19.46
+      }
+    }
+  ]
+},
+    {
+  "id": "dhcsnd",
+  "tenTruong": "Trường Đại học Cảnh sát Nhân dân",
+  "vietTat": "DHCSND",
+  "nganh": [
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nam - Vùng 4)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 19.61,
+        "2024": 20.15,
+        "2025": 22.01
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nữ - Vùng 4)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 22.80,
+        "2024": 23.19,
+        "2025": 24.67
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nam - Vùng 5)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 20.45,
+        "2024": 20.33,
+        "2025": 23.53
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nữ - Vùng 5)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 23.07,
+        "2024": 23.48,
+        "2025": 26.28
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nam - Vùng 6)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 17.95,
+        "2024": 19.63,
+        "2025": 21.33
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nữ - Vùng 6)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 22.08,
+        "2024": 22.54,
+        "2025": 25.67
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nam - Vùng 7)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 19.40,
+        "2024": 20.13,
+        "2025": 21.44
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nữ - Vùng 7)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 22.84,
+        "2024": 23.61,
+        "2025": 24.56
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nam - Vùng 8)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 19.71,
+        "2024": 19.56,
+        "2025": 19.60
+      }
+    },
+    {
+      "maNganh": "7860100",
+      "tenNganh": "Nghiệp vụ Cảnh sát (Nữ - Vùng 8)",
+      "toHop": [
+        "A00",
+        "A01",
+        "C03",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 15.94,
+        "2024": 17.85,
+        "2025": 15.95
+      }
+    }
+  ]
+},
+     {
+  "id": "dhpccc",
+  "tenTruong": "Trường Đại học Phòng cháy Chữa cháy",
+  "vietTat": "DHPCCC",
+  "nganh": [
+    {
+      "maNganh": "7860113",
+      "tenNganh": "Phòng cháy chữa cháy và cứu nạn cứu hộ (Nam - Phía Bắc)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 18.06,
+        "2024": 19.05,
+        "2025": 21.10
+      }
+    },
+    {
+      "maNganh": "7860113",
+      "tenNganh": "Phòng cháy chữa cháy và cứu nạn cứu hộ (Nữ - Phía Bắc)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 21.69,
+        "2024": 21.70,
+        "2025": 24.23
+      }
+    },
+    {
+      "maNganh": "7860113",
+      "tenNganh": "Phòng cháy chữa cháy và cứu nạn cứu hộ (Nam - Phía Nam)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 16.87,
+        "2024": 18.17,
+        "2025": 19.75
+      }
+    },
+    {
+      "maNganh": "7860113",
+      "tenNganh": "Phòng cháy chữa cháy và cứu nạn cứu hộ (Nữ - Phía Nam)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 20.61,
+        "2024": 19.89,
+        "2025": 23.62
+      }
+    }
+  ]
+}, 
+     {
+  "id": "dhkthccand",
+  "tenTruong": "Trường Đại học Kỹ thuật - Hậu cần Công an Nhân dân",
+  "vietTat": "DHKTHCCAND",
+  "nganh": [
+    {
+      "maNganh": "7480200",
+      "tenNganh": "Nhóm ngành Kỹ thuật - Hậu cần (Nam - Phía Bắc)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 19.30,
+        "2024": 19.22,
+        "2025": 21.70
+      }
+    },
+    {
+      "maNganh": "7480200",
+      "tenNganh": "Nhóm ngành Kỹ thuật - Hậu cần (Nữ - Phía Bắc)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 24.74,
+        "2024": 22.38,
+        "2025": 25.21
+      }
+    },
+    {
+      "maNganh": "7480200",
+      "tenNganh": "Nhóm ngành Kỹ thuật - Hậu cần (Nam - Phía Nam)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 17.99,
+        "2024": 17.81,
+        "2025": 20.53
+      }
+    },
+    {
+      "maNganh": "7480200",
+      "tenNganh": "Nhóm ngành Kỹ thuật - Hậu cần (Nữ - Phía Nam)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 20.37,
+        "2024": 21.07,
+        "2025": 23.96
+      }
+    }
+  ]
+},
+     {
+  "id": "ftu2",
+  "tenTruong": "Trường Đại học Ngoại thương — Cơ sở II TP.HCM",
+  "vietTat": "FTU2",
+  "nganh": [
+    {
+      "maNganh": "7310106",
+      "tenNganh": "Kinh tế đối ngoại (CT Tiêu chuẩn)",
+      "toHop": [
+        "A00"
+      ],
+      "diemChuan": {
+        "2023": 27.3,
+        "2024": 27.6,
+        "2025": 27.2
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng (CT Tiêu chuẩn)",
+      "toHop": [
+        "A00"
+      ],
+      "diemChuan": {
+        "2023": 27.6,
+        "2024": 27.9,
+        "2025": 27.65
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh (CT Tiêu chuẩn)",
+      "toHop": [
+        "A00"
+      ],
+      "diemChuan": {
+        "2023": 27.0,
+        "2024": 27.2,
+        "2025": 26.75
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán - Kiểm toán (CT Tiêu chuẩn)",
+      "toHop": [
+        "A00"
+      ],
+      "diemChuan": {
+        "2023": 26.6,
+        "2024": 26.9,
+        "2025": 26.45
+      }
+    },
+    {
+      "maNganh": "7510605",
+      "tenNganh": "Logistics và Quản lý chuỗi cung ứng (ĐHNNQT)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 27.9,
+        "2024": 28.2,
+        "2025": 28.3
+      }
+    },
+    {
+      "maNganh": "7320104",
+      "tenNganh": "Truyền thông Marketing tích hợp (ĐHNNQT)",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 27.3,
+        "2025": 27.5
+      }
+    }
+  ]
+},
+    {
+  "id": "ump",
+  "tenTruong": "Trường Đại học Y Dược TP.HCM",
+  "vietTat": "UMP",
+  "nganh": [
+    {
+      "maNganh": "7720101",
+      "tenNganh": "Y khoa",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 27.34,
+        "2024": 27.80,
+        "2025": 27.34
+      }
+    },
+    {
+      "maNganh": "7720501",
+      "tenNganh": "Răng - Hàm - Mặt",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 26.95,
+        "2024": 27.35,
+        "2025": 26.45
+      }
+    },
+    {
+      "maNganh": "7720201",
+      "tenNganh": "Dược học",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 25.50,
+        "2024": 25.72,
+        "2025": 22.85
+      }
+    },
+    {
+      "maNganh": "7720115",
+      "tenNganh": "Y học cổ truyền",
+      "toHop": [
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 21.50
+      }
+    },
+    {
+      "maNganh": "7720301",
+      "tenNganh": "Điều dưỡng",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 20.15
+      }
+    },
+    {
+      "maNganh": "7720601",
+      "tenNganh": "Kỹ thuật xét nghiệm y học",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 22.05
+      }
+    },
+    {
+      "maNganh": "7720701",
+      "tenNganh": "Y tế công cộng",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 21.45,
+        "2025": 17.00
+      }
+    }
+  ]
+},
+    {
+  "id": "ulaw",
+  "tenTruong": "Trường Đại học Luật TP.HCM",
+  "vietTat": "ULAW",
+  "nganh": [
+    {
+      "maNganh": "7380101",
+      "tenNganh": "Luật",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 27.11,
+        "2024": 27.27,
+        "2025": 24.94
+      }
+    },
+    {
+      "maNganh": "7380109",
+      "tenNganh": "Luật Thương mại quốc tế",
+      "toHop": [
+        "X78"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 26.10,
+        "2025": 25.65
+      }
+    },
+    {
+      "maNganh": "7340102",
+      "tenNganh": "Quản trị - Luật",
+      "toHop": [
+        "X01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 24.00
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": [
+        "X78"
+      ],
+      "diemChuan": {
+        "2023": 25.78,
+        "2024": 25.66,
+        "2025": 23.55
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": [
+        "X01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 22.45
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": [
+        "X01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 22.56,
+        "2025": 21.72
+      }
+    }
+  ]
+},
+     {
+  "id": "hcmute",
+  "tenTruong": "Trường Đại học Sư phạm Kỹ thuật TP.HCM",
+  "vietTat": "HCMUTE",
+  "nganh": [
+    {
+      "maNganh": "7140231",
+      "tenNganh": "Sư phạm tiếng Anh",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 27.2,
+        "2024": 27.5,
+        "2025": 29.57
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": [
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 27.25,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7510303",
+      "tenNganh": "Công nghệ kỹ thuật Điều khiển và Tự động hóa",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 26.14,
+        "2025": 28.4
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 25.97,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7520207",
+      "tenNganh": "Kỹ thuật thiết kế vi mạch",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 28.4
+      }
+    },
+    {
+      "maNganh": "7510401",
+      "tenNganh": "Công nghệ kỹ thuật Hóa học",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 28.4
+      }
+    },
+    {
+      "maNganh": "7549001",
+      "tenNganh": "Kỹ nghệ gỗ và Nội thất",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 19.0,
+        "2024": 20.5,
+        "2025": 21.1
+      }
+    }
+  ]
+},
+     {
+  "id": "hub",
+  "tenTruong": "Trường Đại học Ngân hàng TP.HCM",
+  "vietTat": "HUB",
+  "nganh": [
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 26.36,
+        "2025": 23.60
+      }
+    },
+    {
+      "maNganh": "7340302",
+      "tenNganh": "Kiểm toán",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 23.58
+      }
+    },
+    {
+      "maNganh": "7340115",
+      "tenNganh": "Marketing",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 23.58
+      }
+    },
+    {
+      "maNganh": "7510605",
+      "tenNganh": "Logistics và Quản lý chuỗi cung ứng",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 23.49
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 25.05,
+        "2024": 0,
+        "2025": 18.00
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 25.15,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": [
+        "A00",
+        "A01",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 20.45,
+        "2025": 18.00
+      }
+    }
+  ]
+},
+    {
+  "id": "hcmue",
+  "tenTruong": "Trường Đại học Sư phạm TP.HCM",
+  "vietTat": "HCMUE",
+  "nganh": [
+    {
+      "maNganh": "7140212",
+      "tenNganh": "Sư phạm Hóa học",
+      "toHop": [
+        "A00",
+        "B00",
+        "D07"
+      ],
+      "diemChuan": {
+        "2023": 27.67,
+        "2024": 27.67,
+        "2025": 29.38
+      }
+    },
+    {
+      "maNganh": "7140217",
+      "tenNganh": "Sư phạm Ngữ văn",
+      "toHop": [
+        "C00",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 28.60,
+        "2025": 29.00
+      }
+    },
+    {
+      "maNganh": "7140209",
+      "tenNganh": "Sư phạm Toán học",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 27.60,
+        "2025": 28.00
+      }
+    },
+    {
+      "maNganh": "7140218",
+      "tenNganh": "Sư phạm Lịch sử",
+      "toHop": [
+        "C00",
+        "D14"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 28.60,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7140231",
+      "tenNganh": "Sư phạm Tiếng Anh",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 27.01,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7140210",
+      "tenNganh": "Sư phạm Vật lý",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 27.25,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7220203",
+      "tenNganh": "Ngôn ngữ Pháp",
+      "toHop": [
+        "D01",
+        "D03"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 19.00
+      }
+    }
+  ]
+},
+    {
+  "id": "nlu",
+  "tenTruong": "Trường Đại học Nông Lâm TP.HCM",
+  "vietTat": "NLU",
+  "nganh": [
+    {
+      "maNganh": "7640101",
+      "tenNganh": "Thú y (Chương trình tiên tiến)",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 25.0,
+        "2024": 25.0,
+        "2025": 28.01
+      }
+    },
+    {
+      "maNganh": "7640101",
+      "tenNganh": "Thú y (Chương trình đại trà)",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 24.0,
+        "2024": 24.5,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": [
+        "A00",
+        "A01"
+      ],
+      "diemChuan": {
+        "2023": 23.0,
+        "2024": 23.5,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7540101",
+      "tenNganh": "Công nghệ thực phẩm",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 25.5
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 23.0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": [
+        "A00",
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 23.0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7510401",
+      "tenNganh": "Công nghệ kỹ thuật Hóa học",
+      "toHop": [
+        "A00",
+        "B00"
+      ],
+      "diemChuan": {
+        "2023": 23.0,
+        "2024": 0,
+        "2025": 0
+      }
+    }
+  ]
+},
+     {
+  "id": "ou",
+  "tenTruong": "Trường Đại học Mở TP.HCM",
+  "vietTat": "OU",
+  "nganh": [
+    {
+      "maNganh": "7310401",
+      "tenNganh": "Tâm lý học",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 24.00
+      }
+    },
+    {
+      "maNganh": "7380101 / 7380107",
+      "tenNganh": "Luật / Luật kinh tế",
+      "toHop": [
+        "C00"
+      ],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 24.75,
+        "2025": 23.20
+      }
+    },
+    {
+      "maNganh": "7340115",
+      "tenNganh": "Marketing",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 23.25
+      }
+    },
+    {
+      "maNganh": "7760101",
+      "tenNganh": "Công tác xã hội",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 22.75
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 20.60,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": [
+        "D01"
+      ],
+      "diemChuan": {
+        "2023": 20.40,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    {
+      "maNganh": "7420201",
+      "tenNganh": "Công nghệ sinh học",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 16.00,
+        "2025": 0
+      }
+    }
+  ]
+},
+    {
+  "id": "ufm",
+  "tenTruong": "Trường Đại học Tài chính - Marketing",
+  "vietTat": "UFM",
+  "nganh": [
+    {
+      "maNganh": "7340115",
+      "tenNganh": "Marketing",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 25.90,
+        "2024": 0,
+        "2025": 25.01
+      }
+    },
+    {
+      "maNganh": "7310101",
+      "tenNganh": "Kinh tế",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 25.63
+      }
+    },
+    {
+      "maNganh": "7380107",
+      "tenNganh": "Luật kinh tế",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 24.16
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 23.79
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 23.50,
+        "2024": 0,
+        "2025": 25.55
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 23.01
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": [],
+      "diemChuan": {
+        "2023": 22.00,
+        "2024": 22.00,
+        "2025": 22.10
+      }
+    }
+  ]
+}
+    
   ]
 }
