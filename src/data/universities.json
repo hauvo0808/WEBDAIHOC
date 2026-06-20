@@ -4642,6 +4642,2571 @@
       }
     }
   ]
+},
+    {
+  "id": "vlu",
+  "tenTruong": "Trường Đại học Văn Lang",
+  "vietTat": "VLU",
+  "nganh": [
+    {
+      "maNganh": "7210205",
+      "tenNganh": "THANH NHẠC (*)",
+      "toHop": ["A00", "A01", "B00", "D01"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 18.00
+      }
+    },
+    {
+      "maNganh": "7210208",
+      "tenNganh": "PIANO (*)",
+      "toHop": ["A00", "A01", "B00", "D02"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 18.00
+      }
+    },
+    {
+      "maNganh": "7210234",
+      "tenNganh": "DIỄN VIÊN KỊCH, ĐIỆN ẢNH - TRUYỀN HÌNH (*)",
+      "toHop": ["A00", "A01", "B00", "D03"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 18.00
+      }
+    },
+    {
+      "maNganh": "7210235",
+      "tenNganh": "ĐẠO DIỄN ĐIỆN ẢNH, TRUYỀN HÌNH (*)",
+      "toHop": ["A00", "A01", "B00", "D04"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 18.00
+      }
+    },
+    {
+      "maNganh": "7210302",
+      "tenNganh": "CÔNG NGHỆ ĐIỆN ẢNH, TRUYỀN HÌNH",
+      "toHop": ["A00", "A01", "B00", "D05"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210402",
+      "tenNganh": "THIẾT KẾ CÔNG NGHIỆP (*)",
+      "toHop": ["A00", "A01", "B00", "D06"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210403",
+      "tenNganh": "THIẾT KẾ ĐỒ HOẠ (*)",
+      "toHop": ["A00", "A01", "B00", "D07"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210404",
+      "tenNganh": "THIẾT KẾ THỜI TRANG (*)",
+      "toHop": ["A00", "A01", "B00", "D08"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210409",
+      "tenNganh": "THIẾT KẾ MỸ THUẬT SỐ (*)",
+      "toHop": ["A00", "A01", "B00", "D09"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "NGÔN NGỮ ANH (*)",
+      "toHop": ["A00", "A01", "B00", "D10"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220204",
+      "tenNganh": "NGÔN NGỮ TRUNG QUỐC",
+      "toHop": ["A00", "A01", "B00", "D11"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220210",
+      "tenNganh": "NGÔN NGỮ HÀN QUỐC",
+      "toHop": ["A00", "A01", "B00", "D12"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7229030",
+      "tenNganh": "VĂN HỌC",
+      "toHop": ["A00", "A01", "B00", "D13"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310106",
+      "tenNganh": "KINH TẾ QUỐC TẾ",
+      "toHop": ["A00", "A01", "B00", "D14"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310401",
+      "tenNganh": "TÂM LÝ HỌC",
+      "toHop": ["A00", "A01", "B00", "D15"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310608",
+      "tenNganh": "ĐÔNG PHƯƠNG HỌC",
+      "toHop": ["A00", "A01", "B00", "D16"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320104",
+      "tenNganh": "TRUYỀN THÔNG ĐA PHƯƠNG TIỆN",
+      "toHop": ["A00", "A01", "B00", "D17"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320106",
+      "tenNganh": "CÔNG NGHỆ TRUYỀN THÔNG",
+      "toHop": ["A00", "A01", "B00", "D18"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320108",
+      "tenNganh": "QUAN HỆ CÔNG CHÚNG",
+      "toHop": ["A00", "A01", "B00", "D19"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "QUẢN TRỊ KINH DOANH",
+      "toHop": ["A00", "A01", "B00", "D20"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340115",
+      "tenNganh": "MARKETING",
+      "toHop": ["A00", "A01", "B00", "D21"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340116",
+      "tenNganh": "BẤT ĐỘNG SẢN",
+      "toHop": ["A00", "A01", "B00", "D22"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "KINH DOANH QUỐC TẾ",
+      "toHop": ["A00", "A01", "B00", "D23"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340121",
+      "tenNganh": "KINH DOANH THƯƠNG MẠI",
+      "toHop": ["A00", "A01", "B00", "D24"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340122",
+      "tenNganh": "THƯƠNG MẠI ĐIỆN TỬ",
+      "toHop": ["A00", "A01", "B00", "D25"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "TÀI CHÍNH - NGÂN HÀNG",
+      "toHop": ["A00", "A01", "B00", "D26"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340205",
+      "tenNganh": "CÔNG NGHỆ TÀI CHÍNH",
+      "toHop": ["A00", "A01", "B00", "D27"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "KẾ TOÁN",
+      "toHop": ["A00", "A01", "B00", "D28"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380101",
+      "tenNganh": "LUẬT",
+      "toHop": ["A00", "A01", "B00", "D29"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380107",
+      "tenNganh": "LUẬT KINH TẾ",
+      "toHop": ["A00", "A01", "B00", "D30"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7420201",
+      "tenNganh": "CÔNG NGHỆ SINH HỌC",
+      "toHop": ["A00", "A01", "B00", "D31"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7420205",
+      "tenNganh": "CÔNG NGHỆ SINH HỌC Y DƯỢC",
+      "toHop": ["A00", "A01", "B00", "D32"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7420207",
+      "tenNganh": "CÔNG NGHỆ THẨM MỸ",
+      "toHop": ["A00", "A01", "B00", "D33"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7460108",
+      "tenNganh": "KHOA HỌC DỮ LIỆU",
+      "toHop": ["A00", "A01", "B00", "D34"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7460102",
+      "tenNganh": "MẠNG MT VÀ TRUYỀN THÔNG DỮ LIỆU",
+      "toHop": ["A00", "A01", "B00", "D35"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480103",
+      "tenNganh": "KỸ THUẬT PHẦN MỀM",
+      "toHop": ["A00", "A01", "B00", "D36"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480104",
+      "tenNganh": "HỆ THỐNG THÔNG TIN",
+      "toHop": ["A00", "A01", "B00", "D37"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "CÔNG NGHỆ THÔNG TIN",
+      "toHop": ["A00", "A01", "B00", "D38"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510205",
+      "tenNganh": "CÔNG NGHỆ KỸ THUẬT Ô TÔ",
+      "toHop": ["A00", "A01", "B00", "D39"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510301",
+      "tenNganh": "CÔNG NGHỆ KỸ THUẬT ĐIỆN, ĐIỆN TỬ",
+      "toHop": ["A00", "A01", "B00", "D40"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510406",
+      "tenNganh": "CÔNG NGHỆ KỸ THUẬT MÔI TRƯỜNG",
+      "toHop": ["A00", "A01", "B00", "D41"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510605",
+      "tenNganh": "LOGISTICS VÀ QUẢN LÝ CHUỖI CUNG ỨNG",
+      "toHop": ["A00", "A01", "B00", "D42"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520120",
+      "tenNganh": "KỸ THUẬT HÀNG KHÔNG",
+      "toHop": ["A00", "A01", "B00", "D43"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520114",
+      "tenNganh": "KỸ THUẬT CƠ ĐIỆN TỬ",
+      "toHop": ["A00", "A01", "B00", "D44"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520115",
+      "tenNganh": "KỸ THUẬT NHIỆT",
+      "toHop": ["A00", "A01", "B00", "D45"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7540101",
+      "tenNganh": "CÔNG NGHỆ THỰC PHẨM",
+      "toHop": ["A00", "A01", "B00", "D46"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580101",
+      "tenNganh": "KIẾN TRÚC (*)",
+      "toHop": ["A00", "A01", "B00", "D47"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580108",
+      "tenNganh": "THIẾT KẾ NỘI THẤT (*)",
+      "toHop": ["A00", "A01", "B00", "D48"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580201",
+      "tenNganh": "KỸ THUẬT XÂY DỰNG",
+      "toHop": ["A00", "A01", "B00", "D49"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580302",
+      "tenNganh": "QUẢN LÝ XÂY DỰNG",
+      "toHop": ["A00", "A01", "B00", "D50"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720101",
+      "tenNganh": "Y KHOA",
+      "toHop": ["A00", "A01", "B00", "D51"],
+      "diemChuan": {
+        "2023": 22.00,
+        "2024": 22.50,
+        "2025": 20.50
+      }
+    },
+    {
+      "maNganh": "7720201",
+      "tenNganh": "DƯỢC HỌC",
+      "toHop": ["A00", "A01", "B00", "D52"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 21.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "7720301",
+      "tenNganh": "ĐIỀU DƯỠNG",
+      "toHop": ["A00", "A01", "B00", "D53"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7720501",
+      "tenNganh": "RĂNG - HÀM - MẶT",
+      "toHop": ["A00", "A01", "B00", "D54"],
+      "diemChuan": {
+        "2023": 22.00,
+        "2024": 22.50,
+        "2025": 20.50
+      }
+    },
+    {
+      "maNganh": "7720601",
+      "tenNganh": "KỸ THUẬT XÉT NGHIỆM Y HỌC",
+      "toHop": ["A00", "A01", "B00", "D55"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7810101",
+      "tenNganh": "DU LỊCH",
+      "toHop": ["A00", "A01", "B00", "D56"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810103",
+      "tenNganh": "QUẢN TRỊ DỊCH VỤ DU LỊCH & LỮ HÀNH",
+      "toHop": ["A00", "A01", "B00", "D57"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810201",
+      "tenNganh": "QUẢN TRỊ KHÁCH SẠN",
+      "toHop": ["A00", "A01", "B00", "D58"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810202",
+      "tenNganh": "QUẢN TRỊ NHÀ HÀNG VÀ DỊCH VỤ ĂN UỐNG",
+      "toHop": ["A00", "A01", "B00", "D59"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    }
+  ]
+},
+    {
+  "id": "uef",
+  "tenTruong": "Trường Đại học Kinh tế - Tài chính TP.HCM",
+  "vietTat": "UEF",
+  "nganh": [
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": ["A00", "A01", "B00", "D01"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340101E",
+      "tenNganh": "Quản trị kinh doanh (Chương trình Tài năng UEF)",
+      "toHop": ["A00", "A01", "B00", "D02"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": ["A00", "A01", "B00", "D03"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340120E",
+      "tenNganh": "Kinh doanh quốc tế (Chương trình Tài năng UEF)",
+      "toHop": ["A00", "A01", "B00", "D04"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340115",
+      "tenNganh": "Marketing",
+      "toHop": ["A00", "A01", "B00", "D05"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 18.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340115E",
+      "tenNganh": "Marketing (Chương trình Tài năng UEF)",
+      "toHop": ["A00", "A01", "B00", "D06"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340114",
+      "tenNganh": "Digital Marketing",
+      "toHop": ["A00", "A01", "B00", "D07"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510605",
+      "tenNganh": "Logistics và quản lý chuỗi cung ứng",
+      "toHop": ["A00", "A01", "B00", "D08"],
+      "diemChuan": {
+        "2023": 20.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380101",
+      "tenNganh": "Luật",
+      "toHop": ["A00", "A01", "B00", "D09"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380107",
+      "tenNganh": "Luật kinh tế",
+      "toHop": ["A00", "A01", "B00", "D10"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380109",
+      "tenNganh": "Luật thương mại quốc tế",
+      "toHop": ["A00", "A01", "B00", "D11"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380108",
+      "tenNganh": "Luật quốc tế",
+      "toHop": ["A00", "A01", "B00", "D12"],
+      "diemChuan": {
+        "2023": 20.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340121",
+      "tenNganh": "Kinh doanh thương mại",
+      "toHop": ["A00", "A01", "B00", "D13"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340404",
+      "tenNganh": "Quản trị nhân lực",
+      "toHop": ["A00", "A01", "B00", "D14"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310106",
+      "tenNganh": "Kinh tế quốc tế",
+      "toHop": ["A00", "A01", "B00", "D15"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 20.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810201",
+      "tenNganh": "Quản trị khách sạn",
+      "toHop": ["A00", "A01", "B00", "D16"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810103",
+      "tenNganh": "Quản trị dịch vụ du lịch & lữ hành",
+      "toHop": ["A00", "A01", "B00", "D17"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810202",
+      "tenNganh": "Quản trị nhà hàng và dịch vụ ăn uống",
+      "toHop": ["A00", "A01", "B00", "D18"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340116",
+      "tenNganh": "Bất động sản",
+      "toHop": ["A00", "A01", "B00", "D19"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 18.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320108",
+      "tenNganh": "Quan hệ công chúng",
+      "toHop": ["A00", "A01", "B00", "D20"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320106",
+      "tenNganh": "Công nghệ truyền thông",
+      "toHop": ["A00", "A01", "B00", "D21"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 18.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340412",
+      "tenNganh": "Quản trị sự kiện",
+      "toHop": ["A00", "A01", "B00", "D22"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320104",
+      "tenNganh": "Truyền thông đa phương tiện",
+      "toHop": ["A00", "A01", "B00", "D23"],
+      "diemChuan": {
+        "2023": 20.00,
+        "2024": 18.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": ["A00", "A01", "B00", "D24"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340201E",
+      "tenNganh": "Tài chính - Ngân hàng (Chương trình Tài năng UEF)",
+      "toHop": ["A00", "A01", "B00", "D25"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 0,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": ["A00", "A01", "B00", "D26"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340205",
+      "tenNganh": "Công nghệ tài chính (Fintech)",
+      "toHop": ["A00", "A01", "B00", "D27"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340302",
+      "tenNganh": "Kiểm toán",
+      "toHop": ["A00", "A01", "B00", "D28"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340206",
+      "tenNganh": "Tài chính quốc tế",
+      "toHop": ["A00", "A01", "B00", "D29"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 20.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310109",
+      "tenNganh": "Kinh tế số",
+      "toHop": ["A00", "A01", "B00", "D30"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340122",
+      "tenNganh": "Thương mại điện tử",
+      "toHop": ["A00", "A01", "B00", "D31"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210403",
+      "tenNganh": "Thiết kế đồ họa",
+      "toHop": ["A00", "A01", "B00", "D32"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": ["A00", "A01", "B00", "D33"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480103",
+      "tenNganh": "Kỹ thuật phần mềm",
+      "toHop": ["A00", "A01", "B00", "D34"],
+      "diemChuan": {
+        "2023": 0,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7460108",
+      "tenNganh": "Khoa học dữ liệu",
+      "toHop": ["A00", "A01", "B00", "D35"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310401",
+      "tenNganh": "Tâm lý học",
+      "toHop": ["A00", "A01", "B00", "D36"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310206",
+      "tenNganh": "Quan hệ quốc tế",
+      "toHop": ["A00", "A01", "B00", "D37"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 21.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": ["A00", "A01", "B00", "D38"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220209",
+      "tenNganh": "Ngôn ngữ Nhật",
+      "toHop": ["A00", "A01", "B00", "D39"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220210",
+      "tenNganh": "Ngôn ngữ Hàn Quốc",
+      "toHop": ["A00", "A01", "B00", "D40"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220204",
+      "tenNganh": "Ngôn ngữ Trung Quốc",
+      "toHop": ["A00", "A01", "B00", "D41"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    }
+  ]
+},
+    {
+  "id": "hutech",
+  "tenTruong": "Trường Đại học Công nghệ TP.HCM",
+  "vietTat": "HUTECH",
+  "nganh": [
+    {
+      "maNganh": "HUTECH100",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": ["A00", "A01", "B00", "D01"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH101",
+      "tenNganh": "Marketing",
+      "toHop": ["A00", "A01", "B00", "D02"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH102",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": ["A00", "A01", "B00", "D03"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH103",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": ["A00", "A01", "B00", "D04"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 21.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH104",
+      "tenNganh": "Kế toán",
+      "toHop": ["A00", "A01", "B00", "D05"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 18.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH105",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": ["A00", "A01", "B00", "D06"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH106",
+      "tenNganh": "Kỹ thuật phần mềm",
+      "toHop": ["A00", "A01", "B00", "D07"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH107",
+      "tenNganh": "Hệ thống thông tin",
+      "toHop": ["A00", "A01", "B00", "D08"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH108",
+      "tenNganh": "Khoa học dữ liệu",
+      "toHop": ["A00", "A01", "B00", "D09"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH109",
+      "tenNganh": "An toàn thông tin",
+      "toHop": ["A00", "A01", "B00", "D10"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH110",
+      "tenNganh": "Công nghệ kỹ thuật ô tô",
+      "toHop": ["A00", "A01", "B00", "D11"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 17.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH111",
+      "tenNganh": "Kỹ thuật cơ điện tử",
+      "toHop": ["A00", "A01", "B00", "D12"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 19.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH112",
+      "tenNganh": "Kỹ thuật điện, điện tử",
+      "toHop": ["A00", "A01", "B00", "D13"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 21.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH113",
+      "tenNganh": "Kỹ thuật điều khiển & tự động hóa",
+      "toHop": ["A00", "A01", "B00", "D14"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH114",
+      "tenNganh": "Kỹ thuật robot",
+      "toHop": ["A00", "A01", "B00", "D15"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 17.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH115",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": ["A00", "A01", "B00", "D16"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 19.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH116",
+      "tenNganh": "Ngôn ngữ Trung Quốc",
+      "toHop": ["A00", "A01", "B00", "D17"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 17.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH117",
+      "tenNganh": "Ngôn ngữ Hàn Quốc",
+      "toHop": ["A00", "A01", "B00", "D18"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH118",
+      "tenNganh": "Ngôn ngữ Nhật",
+      "toHop": ["A00", "A01", "B00", "D19"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH119",
+      "tenNganh": "Việt Nam học",
+      "toHop": ["A00", "A01", "B00", "D20"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH120",
+      "tenNganh": "Dược học",
+      "toHop": ["A00", "A01", "B00", "D21"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH121",
+      "tenNganh": "Điều dưỡng",
+      "toHop": ["A00", "A01", "B00", "D22"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 21.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH122",
+      "tenNganh": "Kỹ thuật xét nghiệm y học",
+      "toHop": ["A00", "A01", "B00", "D23"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 21.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH123",
+      "tenNganh": "Quản trị dịch vụ y tế",
+      "toHop": ["A00", "A01", "B00", "D24"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 17.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH124",
+      "tenNganh": "Công nghệ thực phẩm",
+      "toHop": ["A00", "A01", "B00", "D25"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 21.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH125",
+      "tenNganh": "Quản trị khách sạn",
+      "toHop": ["A00", "A01", "B00", "D26"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 17.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH126",
+      "tenNganh": "Quản trị nhà hàng & dịch vụ ăn uống",
+      "toHop": ["A00", "A01", "B00", "D27"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH127",
+      "tenNganh": "Quản trị dịch vụ du lịch & lữ hành",
+      "toHop": ["A00", "A01", "B00", "D28"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 19.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH128",
+      "tenNganh": "Du lịch",
+      "toHop": ["A00", "A01", "B00", "D29"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH129",
+      "tenNganh": "Truyền thông đa phương tiện",
+      "toHop": ["A00", "A01", "B00", "D30"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH130",
+      "tenNganh": "Quan hệ công chúng",
+      "toHop": ["A00", "A01", "B00", "D31"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 21.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH131",
+      "tenNganh": "Marketing kỹ thuật số",
+      "toHop": ["A00", "A01", "B00", "D32"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 16.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH132",
+      "tenNganh": "Digital Marketing",
+      "toHop": ["A00", "A01", "B00", "D33"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 21.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH133",
+      "tenNganh": "Thiết kế đồ họa",
+      "toHop": ["A00", "A01", "B00", "D34"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 21.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH134",
+      "tenNganh": "Thiết kế thời trang",
+      "toHop": ["A00", "A01", "B00", "D35"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH135",
+      "tenNganh": "Thiết kế nội thất",
+      "toHop": ["A00", "A01", "B00", "D36"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 16.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH136",
+      "tenNganh": "Kiến trúc",
+      "toHop": ["A00", "A01", "B00", "D37"],
+      "diemChuan": {
+        "2023": 18.00,
+        "2024": 16.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH137",
+      "tenNganh": "Xây dựng dân dụng & công nghiệp",
+      "toHop": ["A00", "A01", "B00", "D38"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 16.00,
+        "2025": 16.00
+      }
+    },
+    {
+      "maNganh": "HUTECH138",
+      "tenNganh": "Kỹ thuật xây dựng",
+      "toHop": ["A00", "A01", "B00", "D39"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 19.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH139",
+      "tenNganh": "Quản lý xây dựng",
+      "toHop": ["A00", "A01", "B00", "D40"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 18.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH140",
+      "tenNganh": "Luật kinh tế",
+      "toHop": ["A00", "A01", "B00", "D41"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 18.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH141",
+      "tenNganh": "Luật thương mại quốc tế",
+      "toHop": ["A00", "A01", "B00", "D42"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 16.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH142",
+      "tenNganh": "Luật",
+      "toHop": ["A00", "A01", "B00", "D43"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 18.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH143",
+      "tenNganh": "Tâm lý học",
+      "toHop": ["A00", "A01", "B00", "D44"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 18.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "HUTECH144",
+      "tenNganh": "Xã hội học",
+      "toHop": ["A00", "A01", "B00", "D45"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 16.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH145",
+      "tenNganh": "Công nghệ sinh học",
+      "toHop": ["A00", "A01", "B00", "D46"],
+      "diemChuan": {
+        "2023": 16.00,
+        "2024": 18.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH146",
+      "tenNganh": "Kỹ thuật môi trường",
+      "toHop": ["A00", "A01", "B00", "D47"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 21.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "HUTECH147",
+      "tenNganh": "Kỹ thuật hàng không",
+      "toHop": ["A00", "A01", "B00", "D48"],
+      "diemChuan": {
+        "2023": 21.00,
+        "2024": 17.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH148",
+      "tenNganh": "Logistics và quản lý chuỗi cung ứng",
+      "toHop": ["A00", "A01", "B00", "D49"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "HUTECH149",
+      "tenNganh": "Kinh tế quốc tế",
+      "toHop": ["A00", "A01", "B00", "D50"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 16.00,
+        "2025": 16.00
+      }
+    }
+  ]
+},
+    {
+  "id": "ntt",
+  "tenTruong": "Trường Đại học Nguyễn Tất Thành",
+  "vietTat": "NTT",
+  "nganh": [
+    {
+      "maNganh": "7720101",
+      "tenNganh": "Y khoa",
+      "toHop": ["A00", "A01", "B00", "D01"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 23.00,
+        "2025": 20.50
+      }
+    },
+    {
+      "maNganh": "7720501",
+      "tenNganh": "Răng - Hàm - Mặt",
+      "toHop": ["A00", "A01", "B00", "D02"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 22.50,
+        "2025": 20.50
+      }
+    },
+    {
+      "maNganh": "7720115",
+      "tenNganh": "Y học cổ truyền",
+      "toHop": ["A00", "A01", "B00", "D03"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 21.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "7720201",
+      "tenNganh": "Dược học",
+      "toHop": ["A00", "A01", "B00", "D04"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 21.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720110",
+      "tenNganh": "Y học dự phòng",
+      "toHop": ["A00", "A01", "B00", "D05"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720301",
+      "tenNganh": "Điều dưỡng",
+      "toHop": ["A00", "A01", "B00", "D06"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720601",
+      "tenNganh": "Kỹ thuật xét nghiệm y học",
+      "toHop": ["A00", "A01", "B00", "D07"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720603",
+      "tenNganh": "Kỹ thuật phục hồi chức năng",
+      "toHop": ["A00", "A01", "B00", "D08"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 19.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7420201",
+      "tenNganh": "Công nghệ sinh học",
+      "toHop": ["A00", "A01", "B00", "D09"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510401",
+      "tenNganh": "Công nghệ kỹ thuật Hóa học",
+      "toHop": ["A00", "A01", "B00", "D10"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7540101",
+      "tenNganh": "Công nghệ thực phẩm",
+      "toHop": ["A00", "A01", "B00", "D11"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7850101",
+      "tenNganh": "Quản lý tài nguyên và môi trường",
+      "toHop": ["A00", "A01", "B00", "D12"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580201",
+      "tenNganh": "Kỹ thuật xây dựng",
+      "toHop": ["A00", "A01", "B00", "D13"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510301",
+      "tenNganh": "Kỹ thuật điện, điện tử",
+      "toHop": ["A00", "A01", "B00", "D14"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510203",
+      "tenNganh": "Công nghệ kỹ thuật cơ điện tử",
+      "toHop": ["A00", "A01", "B00", "D15"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510205",
+      "tenNganh": "Công nghệ kỹ thuật Ô tô",
+      "toHop": ["A00", "A01", "B00", "D16"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": ["A00", "A01", "B00", "D17"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": ["A00", "A01", "B00", "D18"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - ngân hàng",
+      "toHop": ["A00", "A01", "B00", "D19"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": ["A00", "A01", "B00", "D20"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810201",
+      "tenNganh": "Quản trị khách sạn",
+      "toHop": ["A00", "A01", "B00", "D21"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810202",
+      "tenNganh": "Quản trị nhà hàng và dịch vụ ăn uống",
+      "toHop": ["A00", "A01", "B00", "D22"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": ["A00", "A01", "B00", "D23"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310630",
+      "tenNganh": "Việt Nam học",
+      "toHop": ["A00", "A01", "B00", "D24"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220204",
+      "tenNganh": "Ngôn ngữ Trung Quốc",
+      "toHop": ["A00", "A01", "B00", "D25"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210403",
+      "tenNganh": "Thiết kế đồ họa",
+      "toHop": ["A00", "A01", "B00", "D26"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340404",
+      "tenNganh": "Quản trị Nhân lực",
+      "toHop": ["A00", "A01", "B00", "D27"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380107",
+      "tenNganh": "Luật Kinh tế",
+      "toHop": ["A00", "A01", "B00", "D28"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580101",
+      "tenNganh": "Kiến trúc",
+      "toHop": ["A00", "A01", "B00", "D29"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210205",
+      "tenNganh": "Thanh Nhạc",
+      "toHop": ["A00", "A01", "B00", "D30"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210208",
+      "tenNganh": "Piano",
+      "toHop": ["A00", "A01", "B00", "D31"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580108",
+      "tenNganh": "Thiết kế Nội thất",
+      "toHop": ["A00", "A01", "B00", "D32"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520212",
+      "tenNganh": "Kỹ thuật Y sinh",
+      "toHop": ["A00", "A01", "B00", "D33"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520403",
+      "tenNganh": "Vật lý y khoa",
+      "toHop": ["A00", "A01", "B00", "D34"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310608",
+      "tenNganh": "Đông Phương học",
+      "toHop": ["A00", "A01", "B00", "D35"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320108",
+      "tenNganh": "Quan hệ công chúng",
+      "toHop": ["A00", "A01", "B00", "D36"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310401",
+      "tenNganh": "Tâm lý học",
+      "toHop": ["A00", "A01", "B00", "D37"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510605",
+      "tenNganh": "Logistic và quản lý chuỗi cung ứng",
+      "toHop": ["A00", "A01", "B00", "D38"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340122",
+      "tenNganh": "Thương mại điện tử",
+      "toHop": ["A00", "A01", "B00", "D39"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340115",
+      "tenNganh": "Marketing",
+      "toHop": ["A00", "A01", "B00", "D40"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810101",
+      "tenNganh": "Du lịch",
+      "toHop": ["A00", "A01", "B00", "D41"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320104",
+      "tenNganh": "Truyền thông đa phương tiện",
+      "toHop": ["A00", "A01", "B00", "D42"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210234",
+      "tenNganh": "Diễn viên kịch, điện ảnh-truyền hình",
+      "toHop": ["A00", "A01", "B00", "D43"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480103",
+      "tenNganh": "Kỹ thuật phần mềm",
+      "toHop": ["A00", "A01", "B00", "D44"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480102",
+      "tenNganh": "Mạng máy tính và truyền thông dữ liệu",
+      "toHop": ["A00", "A01", "B00", "D45"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": ["A00", "A01", "B00", "D46"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310206",
+      "tenNganh": "Quan hệ quốc tế",
+      "toHop": ["A00", "A01", "B00", "D47"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720802",
+      "tenNganh": "Quản lý bệnh viện",
+      "toHop": ["A00", "A01", "B00", "D48"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480201_CNST",
+      "tenNganh": "Công nghệ thông tin (CN & Đổi mới sáng tạo)",
+      "toHop": ["A00", "A01", "B00", "D49"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340101_DNCN",
+      "tenNganh": "Quản trị kinh doanh (QT doanh nghiệp & công nghệ)",
+      "toHop": ["A00", "A01", "B00", "D50"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340101_KDST",
+      "tenNganh": "Quản trị kinh doanh (Kinh doanh sáng tạo)",
+      "toHop": ["A00", "A01", "B00", "D51"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340115_DM",
+      "tenNganh": "Marketing (Marketing số & truyền thông XH)",
+      "toHop": ["A00", "A01", "B00", "D52"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720203",
+      "tenNganh": "Hóa Dược",
+      "toHop": ["A00", "A01", "B00", "D53"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7640101",
+      "tenNganh": "Thú y",
+      "toHop": ["A00", "A01", "B00", "D54"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580205",
+      "tenNganh": "Kỹ thuật xây dựng công trình giao thông",
+      "toHop": ["A00", "A01", "B00", "D55"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380101",
+      "tenNganh": "Luật",
+      "toHop": ["A00", "A01", "B00", "D56"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210404",
+      "tenNganh": "Thiết kế thời trang",
+      "toHop": ["A00", "A01", "B00", "D57"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340101_KDTP",
+      "tenNganh": "Quản trị kinh doanh thực phẩm",
+      "toHop": ["A00", "A01", "B00", "D58"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480107",
+      "tenNganh": "Trí tuệ nhân tạo",
+      "toHop": ["A00", "A01", "B00", "D59"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7460108",
+      "tenNganh": "Khoa học dữ liệu",
+      "toHop": ["A00", "A01", "B00", "D60"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7440122",
+      "tenNganh": "Khoa học vật liệu (Vật liệu tiên tiến & Nano)",
+      "toHop": ["A00", "A01", "B00", "D61"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480201_DLMT",
+      "tenNganh": "Công nghệ thông tin và dữ liệu TNMT",
+      "toHop": ["A00", "A01", "B00", "D62"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7140103",
+      "tenNganh": "Công nghệ giáo dục",
+      "toHop": ["A00", "A01", "B00", "D63"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    }
+  ]
+},
+    {
+  "id": "hiu",
+  "tenTruong": "Trường Đại học Quốc tế Hồng Bàng",
+  "vietTat": "HIU",
+  "nganh": [
+    {
+      "maNganh": "7720101",
+      "tenNganh": "Y khoa",
+      "toHop": ["A00", "A01", "B00", "D01"],
+      "diemChuan": {
+        "2023": 20.50,
+        "2024": 20.50,
+        "2025": 20.50
+      }
+    },
+    {
+      "maNganh": "7720115",
+      "tenNganh": "Y học cổ truyền",
+      "toHop": ["A00", "A01", "B00", "D02"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "7720602",
+      "tenNganh": "Kỹ thuật hình ảnh y học",
+      "toHop": ["A00", "A01", "B00", "D03"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7720701",
+      "tenNganh": "Y tế công cộng",
+      "toHop": ["A00", "A01", "B00", "D04"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720501",
+      "tenNganh": "Răng - Hàm - Mặt",
+      "toHop": ["A00", "A01", "B00", "D05"],
+      "diemChuan": {
+        "2023": 20.50,
+        "2024": 20.50,
+        "2025": 20.50
+      }
+    },
+    {
+      "maNganh": "7720201",
+      "tenNganh": "Dược học",
+      "toHop": ["A00", "A01", "B00", "D06"],
+      "diemChuan": {
+        "2023": 19.00,
+        "2024": 19.00,
+        "2025": 19.00
+      }
+    },
+    {
+      "maNganh": "7720301",
+      "tenNganh": "Điều dưỡng",
+      "toHop": ["A00", "A01", "B00", "D07"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7720302",
+      "tenNganh": "Hộ sinh",
+      "toHop": ["A00", "A01", "B00", "D08"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7720401",
+      "tenNganh": "Dinh dưỡng",
+      "toHop": ["A00", "A01", "B00", "D09"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7720603",
+      "tenNganh": "Kỹ thuật Phục hồi chức năng",
+      "toHop": ["A00", "A01", "B00", "D10"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7720601",
+      "tenNganh": "Kỹ thuật xét nghiệm y học",
+      "toHop": ["A00", "A01", "B00", "D11"],
+      "diemChuan": {
+        "2023": 17.00,
+        "2024": 17.00,
+        "2025": 17.00
+      }
+    },
+    {
+      "maNganh": "7340101",
+      "tenNganh": "Quản trị kinh doanh",
+      "toHop": ["A00", "A01", "B00", "D12"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340114",
+      "tenNganh": "Digital Marketing",
+      "toHop": ["A00", "A01", "B00", "D13"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340301",
+      "tenNganh": "Kế toán",
+      "toHop": ["A00", "A01", "B00", "D14"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340201",
+      "tenNganh": "Tài chính - Ngân hàng",
+      "toHop": ["A00", "A01", "B00", "D15"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340412",
+      "tenNganh": "Quản trị sự kiện",
+      "toHop": ["A00", "A01", "B00", "D16"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810201",
+      "tenNganh": "Quản trị khách sạn",
+      "toHop": ["A00", "A01", "B00", "D17"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7810103",
+      "tenNganh": "Quản trị dịch vụ du lịch & lữ hành",
+      "toHop": ["A00", "A01", "B00", "D18"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340122",
+      "tenNganh": "Thương mại điện tử",
+      "toHop": ["A00", "A01", "B00", "D19"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340205",
+      "tenNganh": "Công nghệ tài chính",
+      "toHop": ["A00", "A01", "B00", "D20"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7340120",
+      "tenNganh": "Kinh doanh quốc tế",
+      "toHop": ["A00", "A01", "B00", "D21"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220201",
+      "tenNganh": "Ngôn ngữ Anh",
+      "toHop": ["A00", "A01", "B00", "D22"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220204",
+      "tenNganh": "Ngôn ngữ Trung Quốc",
+      "toHop": ["A00", "A01", "B00", "D23"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220209",
+      "tenNganh": "Ngôn ngữ Nhật",
+      "toHop": ["A00", "A01", "B00", "D24"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7220210",
+      "tenNganh": "Ngôn ngữ Hàn Quốc",
+      "toHop": ["A00", "A01", "B00", "D25"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320104",
+      "tenNganh": "Truyền thông đa phương tiện",
+      "toHop": ["A00", "A01", "B00", "D26"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7320108",
+      "tenNganh": "Quan hệ công chúng",
+      "toHop": ["A00", "A01", "B00", "D27"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310206",
+      "tenNganh": "Quan hệ quốc tế",
+      "toHop": ["A00", "A01", "B00", "D28"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310401",
+      "tenNganh": "Tâm lý học",
+      "toHop": ["A00", "A01", "B00", "D29"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7310630",
+      "tenNganh": "Việt Nam học",
+      "toHop": ["A00", "A01", "B00", "D30"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380107",
+      "tenNganh": "Luật kinh tế",
+      "toHop": ["A00", "A01", "B00", "D31"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7380101",
+      "tenNganh": "Luật",
+      "toHop": ["A00", "A01", "B00", "D32"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7480201",
+      "tenNganh": "Công nghệ thông tin",
+      "toHop": ["A00", "A01", "B00", "D33"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7580101",
+      "tenNganh": "Kiến trúc",
+      "toHop": ["A00", "A01", "B00", "D34"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7210403",
+      "tenNganh": "Thiết kế đồ họa",
+      "toHop": ["A00", "A01", "B00", "D35"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7510605",
+      "tenNganh": "Logistics và quản lý chuỗi cung ứng",
+      "toHop": ["A00", "A01", "B00", "D36"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520212",
+      "tenNganh": "Kỹ thuật Y sinh",
+      "toHop": ["A00", "A01", "B00", "D37"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7520114",
+      "tenNganh": "Kỹ thuật cơ điện tử",
+      "toHop": ["A00", "A01", "B00", "D38"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7420201",
+      "tenNganh": "Công nghệ sinh học",
+      "toHop": ["A00", "A01", "B00", "D39"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    },
+    {
+      "maNganh": "7140114",
+      "tenNganh": "Quản lý Giáo dục",
+      "toHop": ["A00", "A01", "B00", "D40"],
+      "diemChuan": {
+        "2023": 15.00,
+        "2024": 15.00,
+        "2025": 15.00
+      }
+    }
+  ]
 } 
   ]
 }
