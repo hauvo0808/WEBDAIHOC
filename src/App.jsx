@@ -62,7 +62,7 @@ export default function App() {
           {activeTab === 'bieu-do' && (
             <ChartTab allCombinationResults={allCombinationResults} />
           )}
-          {activeTab === 'tuition' && <TuitionTab />}
+          {activeTab === 'Tuition' && <TuitionTab />}
         </div>
       </main>
     </div>
