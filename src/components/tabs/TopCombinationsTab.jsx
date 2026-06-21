@@ -3,9 +3,9 @@ import EmptyState from '../ui/EmptyState'
 import { SUBJECT_LABEL } from '../../utils/subjects'
 
 const RANK_STYLE = [
-  'bg-brand-600 text-white', // #1
-  'bg-ink text-white', // #2
-  'bg-ink-soft text-white', // #3
+  { bg: 'var(--color-brand-600)', color: '#fff', shadow: '0 4px 12px rgba(234,88,12,0.35)' },
+  { bg: 'var(--color-ink)', color: '#fff', shadow: '0 4px 12px rgba(28,25,23,0.25)' },
+  { bg: 'var(--color-ink-soft)', color: '#fff', shadow: '0 4px 12px rgba(87,83,78,0.2)' },
 ]
 
 export default function TopCombinationsTab({ results, onGoToInput }) {
@@ -13,46 +13,107 @@ export default function TopCombinationsTab({ results, onGoToInput }) {
     <div>
       <SectionHeader
         index="02"
-        title="Top 10 tổ hợp cao nhất"
+        title="Top 10 tổ hợp"
         description="Xếp hạng tổng điểm xét tuyển (3 môn + điểm ưu tiên thực tế) trong số các tổ hợp thí sinh đã nhập đủ điểm."
       />
 
       {results.length === 0 ? (
         <EmptyState onGoToInput={onGoToInput} />
       ) : (
-        <ol className="space-y-2.5">
+        <ol style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
           {results.map((r, i) => (
             <li
               key={r.code}
-              className="animate-rise flex items-center gap-4 rounded-xl border border-line bg-paper-raised px-4 py-3.5 transition-all duration-200 hover:border-brand-300 hover:shadow-md sm:px-5"
-              style={{ animationDelay: `${i * 35}ms` }}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '16px',
+                background: 'var(--color-paper-raised)',
+                border: '1.5px solid var(--color-line)',
+                borderRadius: '16px',
+                padding: '16px 20px',
+                opacity: 0,
+                animation: 'rise 0.45s cubic-bezier(0.16,1,0.3,1) forwards',
+                animationDelay: `${i * 40}ms`,
+                transition: 'border-color 0.2s, box-shadow 0.2s, transform 0.2s',
+                cursor: 'default',
+              }}
+              onMouseEnter={e => {
+                e.currentTarget.style.borderColor = 'var(--color-brand-200)'
+                e.currentTarget.style.boxShadow = '0 8px 24px rgba(234,88,12,0.08)'
+                e.currentTarget.style.transform = 'translateY(-2px)'
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.borderColor = 'var(--color-line)'
+                e.currentTarget.style.boxShadow = 'none'
+                e.currentTarget.style.transform = 'translateY(0)'
+              }}
             >
-              <span
-                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg font-mono text-[13px] font-bold sm:h-9 sm:w-9 ${
-                  RANK_STYLE[i] ?? 'bg-gray-100 text-ink-soft'
-                }`}
-              >
+              {/* Rank badge */}
+              <div style={{
+                width: '40px',
+                height: '40px',
+                borderRadius: '12px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontFamily: 'var(--font-mono)',
+                fontSize: '14px',
+                fontWeight: 800,
+                flexShrink: 0,
+                background: RANK_STYLE[i]?.bg ?? 'var(--color-line)',
+                color: RANK_STYLE[i]?.color ?? 'var(--color-ink-soft)',
+                boxShadow: RANK_STYLE[i]?.shadow ?? 'none',
+              }}>
                 {i + 1}
-              </span>
+              </div>
 
-              <div className="min-w-0 flex-1">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-md border border-line bg-paper px-2 py-0.5 font-mono text-[12.5px] font-semibold text-ink">
+              {/* Info */}
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '8px' }}>
+                  <span style={{
+                    fontFamily: 'var(--font-mono)',
+                    fontSize: '13px',
+                    fontWeight: 700,
+                    color: 'var(--color-ink)',
+                    background: 'var(--color-paper)',
+                    border: '1px solid var(--color-line)',
+                    borderRadius: '8px',
+                    padding: '2px 10px',
+                  }}>
                     {r.code}
                   </span>
-                  <span className="truncate text-[13px] text-ink-soft">
+                  <span style={{
+                    fontSize: '13px',
+                    color: 'var(--color-ink-soft)',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                  }}>
                     {r.subjects.map((s) => SUBJECT_LABEL[s]).join(' · ')}
                   </span>
                 </div>
               </div>
 
-              <div className="shrink-0 text-right">
-                <p className="font-display font-mono text-lg font-bold leading-none text-brand-600 sm:text-xl">
+              {/* Score */}
+              <div style={{ flexShrink: 0, textAlign: 'right' }}>
+                <div style={{
+                  fontFamily: 'var(--font-body)',
+                  fontSize: '24px',
+                  fontWeight: 800,
+                  color: 'var(--color-brand-600)',
+                  lineHeight: 1,
+                }}>
                   {r.total.toFixed(2)}
-                </p>
-                <p className="mt-1 text-[11px] text-ink-soft">
+                </div>
+                <div style={{
+                  marginTop: '4px',
+                  fontSize: '11px',
+                  color: 'var(--color-ink-soft)',
+                  fontFamily: 'var(--font-mono)',
+                }}>
                   {r.baseScore.toFixed(2)} + ƯT {r.bonus.toFixed(2)}
-                </p>
+                </div>
               </div>
             </li>
           ))}

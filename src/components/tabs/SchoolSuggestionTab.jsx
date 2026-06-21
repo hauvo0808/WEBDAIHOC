@@ -97,7 +97,7 @@ function SchoolCard({ item, delay }) {
         <StatusStamp status={item.status} />
       </div>
 
-      <h3 className="mt-3 font-display text-[15.5px] font-semibold leading-snug text-ink">
+      <h3 style={{ marginTop: '12px', fontFamily: 'var(--font-body)', fontSize: '16px', fontWeight: 800, lineHeight: 1.3, color: 'var(--color-ink)' }}>
         {item.tenNganh}
       </h3>
       <p className="mt-0.5 truncate text-[12.5px] text-ink-soft">
@@ -138,9 +138,12 @@ function Metric({ label, value, mono, emphasize }) {
   return (
     <div>
       <p
-        className={`${mono ? 'font-mono' : ''} ${
-          emphasize ? 'text-brand-600' : 'text-ink'
-        } text-[14px] font-bold`}
+        style={{
+  fontFamily: mono ? 'var(--font-mono)' : 'var(--font-body)',
+  fontSize: '16px',
+  fontWeight: 800,
+  color: emphasize ? 'var(--color-brand-600)' : 'var(--color-ink)',
+}}
       >
         {value}
       </p>

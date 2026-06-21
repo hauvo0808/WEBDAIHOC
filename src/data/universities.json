@@ -6,6 +6,12 @@
       "id": "hcmus",
       "tenTruong": "Trường Đại học Khoa học Tự nhiên - ĐHQG TP.HCM",
       "vietTat": "HCMUS",
+      "hocPhi": {
+    "min": 28000000,
+    "max": 67000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành, tăng ~5%/năm"
+  },
       "nganh": [
         {
           "maNganh": "7480101",
@@ -73,6 +79,12 @@
   "id": "hcmussh",
   "tenTruong": "Trường Đại học Khoa học Xã hội và Nhân văn - ĐHQG TP.HCM",
   "vietTat": "HCMUSSH",
+   "hocPhi": {
+    "min": 16000000,
+    "max": 80000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7320101",
@@ -293,6 +305,12 @@
   "id": "hcmiu",
   "tenTruong": "Trường Đại học Quốc tế - ĐHQG TP.HCM",
   "vietTat": "HCMIU",
+  "hocPhi": {
+    "min": 58000000,
+    "max": 330000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành, tăng ~7%/năm"
+  },
   "nganh": [
     {
       "maNganh": "7510605",
@@ -400,6 +418,12 @@
   "id": "uit",
   "tenTruong": "Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM",
   "vietTat": "UIT",
+  "hocPhi": {
+    "min": 18000000,
+    "max": 35000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành, tăng ~8%/năm"
+  },
   "nganh": [
     {
       "maNganh": "7480107",
@@ -507,6 +531,12 @@
   "id": "uel",
   "tenTruong": "Trường Đại học Kinh tế - Luật - ĐHQG TP.HCM",
   "vietTat": "UEL",
+  "hocPhi": {
+    "min": 31000000,
+    "max": 70000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành, tăng ~10%/năm"
+  },
   "nganh": [
     {
       "maNganh": "7340122",
@@ -664,6 +694,12 @@
   "id": "agu",
   "tenTruong": "Trường Đại học An Giang - ĐHQG TP.HCM",
   "vietTat": "AGU",
+  "hocPhi": {
+    "min": 15000000,
+    "max": 30000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7140217",
@@ -807,6 +843,12 @@
   "id": "uhs",
   "tenTruong": "Trường Đại học Khoa học Sức khỏe - ĐHQG TP.HCM",
   "vietTat": "UHS",
+   "hocPhi": {
+    "min": 41800000,
+    "max": 70000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7720101",
@@ -875,6 +917,12 @@
   "id": "dhannd",
   "tenTruong": "Trường Đại học An ninh Nhân dân",
   "vietTat": "DHANND",
+   "hocPhi": {
+    "min": 0,
+    "max": 0,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7860100",
@@ -1189,6 +1237,12 @@
   "id": "dhpccc",
   "tenTruong": "Trường Đại học Phòng cháy Chữa cháy",
   "vietTat": "DHPCCC",
+   "hocPhi": {
+    "min": 0,
+    "max": 22900000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7860113",
@@ -1256,6 +1310,12 @@
   "id": "dhkthccand",
   "tenTruong": "Trường Đại học Kỹ thuật - Hậu cần Công an Nhân dân",
   "vietTat": "DHKTHCCAND",
+   "hocPhi": {
+    "min": 0,
+    "max": 0,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7480200",
@@ -1319,6 +1379,12 @@
   "id": "ftu2",
   "tenTruong": "Trường Đại học Ngoại thương — Cơ sở II TP.HCM",
   "vietTat": "FTU2",
+   "hocPhi": {
+    "min": 25500000,
+    "max": 85000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7310106",
@@ -1404,6 +1470,12 @@
   "id": "ump",
   "tenTruong": "Trường Đại học Y Dược TP.HCM",
   "vietTat": "UMP",
+   "hocPhi": {
+    "min": 30000000,
+    "max": 84700000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7720101",
@@ -1499,6 +1571,12 @@
   "id": "ulaw",
   "tenTruong": "Trường Đại học Luật TP.HCM",
   "vietTat": "ULAW",
+  "hocPhi": {
+    "min": 39750000,
+    "max": 219700000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7380101",
@@ -1578,6 +1656,12 @@
   "id": "hcmute",
   "tenTruong": "Trường Đại học Sư phạm Kỹ thuật TP.HCM",
   "vietTat": "HCMUTE",
+  "hocPhi": {
+    "min": 28800000,
+    "max": 58000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7140231",
@@ -1675,6 +1759,12 @@
   "id": "hub",
   "tenTruong": "Trường Đại học Ngân hàng TP.HCM",
   "vietTat": "HUB",
+  "hocPhi": {
+    "min": 23000000,
+    "max": 60000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7340120",
@@ -1779,7 +1869,12 @@
     {
   "id": "hcmue",
   "tenTruong": "Trường Đại học Sư phạm TP.HCM",
-  "vietTat": "HCMUE",
+  "vietTat": "HCMUE","hocPhi": {
+    "min": 15900000,
+    "max": 22200000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7140212",
@@ -1877,7 +1972,12 @@
     {
   "id": "nlu",
   "tenTruong": "Trường Đại học Nông Lâm TP.HCM",
-  "vietTat": "NLU",
+  "vietTat": "NLU","hocPhi": {
+    "min": 19000000,
+    "max": 48000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7640101",
@@ -1974,7 +2074,12 @@
      {
   "id": "ou",
   "tenTruong": "Trường Đại học Mở TP.HCM",
-  "vietTat": "OU",
+  "vietTat": "OU","hocPhi": {
+    "min": 24000000,
+    "max": 28500000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7310401",
@@ -2055,7 +2160,12 @@
     {
   "id": "ufm",
   "tenTruong": "Trường Đại học Tài chính - Marketing",
-  "vietTat": "UFM",
+  "vietTat": "UFM","hocPhi": {
+    "min": 30000000,
+    "max": 64000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7340115",
@@ -2132,7 +2242,12 @@
     {
   "id": "hcmut",
   "tenTruong": "Trường Đại học Bách khoa - ĐHQG TP.HCM",
-  "vietTat": "HCMUT",
+  "vietTat": "HCMUT","hocPhi": {
+    "min": 31500000,
+    "max": 900000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7480201",
@@ -2194,7 +2309,12 @@
     {
   "id": "pntu",
   "tenTruong": "Trường Đại học Y khoa Phạm Ngọc Thạch",
-  "vietTat": "PNTU",
+  "vietTat": "PNTU","hocPhi": {
+    "min": 47000000,
+    "max": 81000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7720101TP",
@@ -2249,7 +2369,12 @@
      {
   "id": "vgu",
   "tenTruong": "Trường Đại học Việt - Đức",
-  "vietTat": "VGU",
+  "vietTat": "VGU","hocPhi": {
+    "min": 87400000,
+    "max": 93200000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7480101",
@@ -2311,7 +2436,12 @@
     {
   "id": "sgu",
   "tenTruong": "Trường Đại học Sài Gòn",
-  "vietTat": "SGU",
+  "vietTat": "SGU","hocPhi": {
+    "min": 0,
+    "max": 53000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Các ngành sư phạm được miễn học phí theo chính sách nhà nước "
+  },
   "nganh": [
     {
       "maNganh": "7140218",
@@ -2368,7 +2498,12 @@
     {
   "id": "ulsa2",
   "tenTruong": "Trường Đại học Lao động - Xã hội (Cơ sở 2)",
-  "vietTat": "ULSA2",
+  "vietTat": "ULSA2","hocPhi": {
+    "min": 13600000,
+    "max": 16000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7340404",
@@ -2431,7 +2566,12 @@
     {
   "id": "hcmunre",
   "tenTruong": "Trường Đại học Tài nguyên và Môi trường TP.HCM",
-  "vietTat": "HCMUNRE",
+  "vietTat": "HCMUNRE","hocPhi": {
+    "min": 13000000,
+    "max": 22000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7510605",
@@ -2494,7 +2634,12 @@
      {
   "id": "hcmuc",
   "tenTruong": "Trường Đại học Văn hóa TP.HCM",
-  "vietTat": "HCMUC",
+  "vietTat": "HCMUC","hocPhi": {
+    "min": 15600000,
+    "max": 20000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7220112",
@@ -2540,7 +2685,12 @@
     {
   "id": "hcmufa",
   "tenTruong": "Trường Đại học Mỹ thuật TP.HCM",
-  "vietTat": "HCMUFA",
+  "vietTat": "HCMUFA","hocPhi": {
+    "min": 30000000,
+    "max": 65000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7210103",
@@ -2599,7 +2749,12 @@
     {
   "id": "skdahcm",
   "tenTruong": "Trường Đại học Sân khấu - Điện ảnh TP.HCM",
-  "vietTat": "SKDAHCM",
+  "vietTat": "SKDAHCM","hocPhi": {
+    "min": 10000000,
+    "max": 25000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7210235",
@@ -2654,7 +2809,12 @@
        {
   "id": "tlu2",
   "tenTruong": "Trường Đại học Thủy lợi (Cơ sở 2)",
-  "vietTat": "TLU2",
+  "vietTat": "TLU2","hocPhi": {
+    "min": 11000000,
+    "max": 20000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7480201",
@@ -2702,7 +2862,12 @@
      {
   "id": "dhtdtthcm",
   "tenTruong": "Trường Đại học Thể dục Thể thao TP.HCM",
-  "vietTat": "DHTDTTHCM",
+  "vietTat": "DHTDTTHCM","hocPhi": {
+    "min": 12500000,
+    "max": 21600000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7140206",
@@ -2748,7 +2913,12 @@
      {
   "id": "upes",
   "tenTruong": "Trường Đại học Sư phạm Thể dục Thể thao TP.HCM",
-  "vietTat": "UPES",
+  "vietTat": "UPES","hocPhi": {
+    "min": 10000000,
+    "max": 20000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7140206",
@@ -2781,7 +2951,12 @@
     {
   "id": "ueh",
   "tenTruong": "Trường Đại học Kinh tế TP.HCM",
-  "vietTat": "UEH",
+  "vietTat": "UEH","hocPhi": {
+    "min": 45000000,
+    "max": 75000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7220201",
@@ -3258,7 +3433,12 @@
     {
   "id": "uah",
   "tenTruong": "Trường Đại học Kiến trúc TP.HCM",
-  "vietTat": "UAH",
+  "vietTat": "UAH","hocPhi": {
+    "min": 17000000,
+    "max": 29000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7580101",
@@ -3415,7 +3595,12 @@
      {
   "id": "utc2",
   "tenTruong": "Trường Đại học Giao thông Vận tải - Phân hiệu tại TP.HCM",
-  "vietTat": "UTC2",
+  "vietTat": "UTC2","hocPhi": {
+    "min": 12500000,
+    "max": 21500000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7340101",
@@ -3662,7 +3847,12 @@
     {
   "id": "huit",
   "tenTruong": "Trường Đại học Công Thương TP.HCM",
-  "vietTat": "HUIT",
+  "vietTat": "HUIT","hocPhi": {
+    "min": 26000000,
+    "max": 55000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "",
@@ -4070,6 +4260,12 @@
   "id": "iuh",
   "tenTruong": "Trường Đại học Công nghiệp TP.HCM",
   "vietTat": "IUH",
+  "hocPhi": {
+    "min": 32000000,
+    "max": 48000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7340101",
@@ -4646,7 +4842,12 @@
     {
   "id": "vlu",
   "tenTruong": "Trường Đại học Văn Lang",
-  "vietTat": "VLU",
+  "vietTat": "VLU","hocPhi": {
+    "min": 40000000,
+    "max": 85000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7210205",
@@ -5243,7 +5444,12 @@
     {
   "id": "uef",
   "tenTruong": "Trường Đại học Kinh tế - Tài chính TP.HCM",
-  "vietTat": "UEF",
+  "vietTat": "UEF","hocPhi": {
+    "min": 45000000,
+    "max": 90000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7340101",
@@ -5660,7 +5866,12 @@
     {
   "id": "hutech",
   "tenTruong": "Trường Đại học Công nghệ TP.HCM",
-  "vietTat": "HUTECH",
+  "vietTat": "HUTECH","hocPhi": {
+    "min": 35000000,
+    "max": 95000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "HUTECH100",
@@ -6167,7 +6378,12 @@
     {
   "id": "ntt",
   "tenTruong": "Trường Đại học Nguyễn Tất Thành",
-  "vietTat": "NTT",
+  "vietTat": "NTT","hocPhi": {
+    "min": 30100000,
+    "max": 120000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7720101",
@@ -6804,7 +7020,12 @@
     {
   "id": "hiu",
   "tenTruong": "Trường Đại học Quốc tế Hồng Bàng",
-  "vietTat": "HIU",
+  "vietTat": "HIU","hocPhi": {
+    "min": 50000000,
+    "max": 180000000,
+    "donVi": "VNĐ/năm",
+    "ghiChu": "Tùy ngành"
+  },
   "nganh": [
     {
       "maNganh": "7720101",
@@ -7205,7 +7426,7 @@
         "2024": 15.00,
         "2025": 15.00
       }
-    }
+    } 
   ]
 } 
   ]

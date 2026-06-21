@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import Sidebar from './components/layout/Sidebar'
 import ScoreInputTab from './components/tabs/ScoreInputTab'
 import TopCombinationsTab from './components/tabs/TopCombinationsTab'
+import TuitionTab from './components/tabs/TuitionTab'
 import SchoolSuggestionTab from './components/tabs/SchoolSuggestionTab'
 import ChartTab from './components/tabs/ChartTab'
 import { EMPTY_SCORES } from './utils/subjects'
@@ -61,6 +62,7 @@ export default function App() {
           {activeTab === 'bieu-do' && (
             <ChartTab allCombinationResults={allCombinationResults} />
           )}
+          {activeTab === 'tuition' && <TuitionTab />}
         </div>
       </main>
     </div>
