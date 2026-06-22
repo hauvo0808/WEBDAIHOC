@@ -7,7 +7,7 @@ import universitiesData from '../../data/universities.json'
 import { buildSchoolSuggestions, countByStatus } from '../../utils/admissionLogic'
 import { fireSuccessConfetti } from '../../utils/confetti'
 
-export default function SchoolSuggestionTab({ allCombinationResults, onGoToInput }) {
+export default function SchoolSuggestionTab({ allCombinationResults, onGoToInput, onAddToWishlist }) {
   const suggestions = useMemo(
     () => buildSchoolSuggestions(universitiesData, allCombinationResults),
     [allCombinationResults]
@@ -48,6 +48,7 @@ export default function SchoolSuggestionTab({ allCombinationResults, onGoToInput
               key={`${item.schoolId}-${item.maNganh}`}
               item={item}
               delay={i * 30}
+              onAdd={onAddToWishlist}
             />
           ))}
         </div>
@@ -70,7 +71,7 @@ function StatChip({ label, value, tone }) {
   )
 }
 
-function SchoolCard({ item, delay }) {
+function SchoolCard({ item, delay, onAdd  }) {
   const range = 8 // độ rộng thang trực quan quanh điểm chuẩn (±4)
   const lower = item.diemChuan2025 - range / 2
   const studentPercent = Math.min(
@@ -116,7 +117,27 @@ function SchoolCard({ item, delay }) {
           emphasize
         />
       </div>
-
+         {onAdd && (
+        <button
+          onClick={() => onAdd({
+            truongId:    item.schoolId,
+            tenTruong:   item.schoolName,
+            vietTat:     item.schoolShort,
+            maNganh:     item.maNganh,
+            tenNganh:    item.tenNganh,
+            toHop:       [item.toHopDung],
+            toHopChon:   item.toHopDung,
+            diemChuan:   { '2023': 0, '2024': 0, '2025': item.diemChuan2025 },
+            diemThiSinh: item.diemThiSinh,
+            ketQua:      item.status.key,
+          })}
+          className="mt-3 w-full rounded-xl border border-indigo-200 bg-indigo-50
+                     py-2 text-xs font-semibold text-indigo-600
+                     hover:bg-indigo-100 transition-colors"
+        >
+          + Thêm vào Nguyện vọng
+        </button>
+      )}
       <div className="mt-4">
         <div className="relative h-1.5 rounded-full bg-gray-100">
           <div

@@ -210,16 +210,20 @@ function TuitionCard({ u, index, visible }) {
 export default function TuitionTab() {
   const [sortBy, setSortBy] = useState('name')
   const [search, setSearch] = useState('')
+  const [budget, setBudget] = useState('')
   const [visibleCards, setVisibleCards] = useState(new Set())
   const cardRefs = useRef([])
 
   const data = universities.truong.filter(u => u.hocPhi)
+
+  const budgetNum = budget ? parseInt(budget.replace(/\D/g, '')) * 1_000_000 : null
 
   const filtered = [...data]
     .filter(u =>
       u.tenTruong.toLowerCase().includes(search.toLowerCase()) ||
       u.vietTat.toLowerCase().includes(search.toLowerCase())
     )
+    .filter(u => budgetNum === null || u.hocPhi.min <= budgetNum)
     .sort((a, b) => {
       if (sortBy === 'min') return a.hocPhi.min - b.hocPhi.min
       if (sortBy === 'max') return b.hocPhi.max - a.hocPhi.max
@@ -368,7 +372,88 @@ export default function TuitionTab() {
           </button>
         ))}
       </div>
+      {/* Bộ lọc ngân sách */}
+      <div style={{
+        background: 'var(--color-paper-raised)',
+        border: '1.5px solid var(--color-brand-200)',
+        borderRadius: '14px',
+        padding: '16px 20px',
+        marginBottom: '20px',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '12px',
+        flexWrap: 'wrap',
+      }}>
+        <div style={{ flex: 1, minWidth: '200px' }}>
+          <div style={{ fontSize: '13px', fontWeight: 700, color: 'var(--color-ink)', marginBottom: '6px' }}>
+            💰 Ngân sách của bạn (triệu ₫/năm)
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <input
+              type="number"
+              placeholder="VD: 50 (tức 50 triệu)"
+              value={budget}
+              onChange={e => setBudget(e.target.value)}
+              style={{
+                flex: 1,
+                border: '1.5px solid var(--color-brand-300)',
+                borderRadius: '10px',
+                padding: '9px 14px',
+                fontSize: '14px',
+                fontFamily: 'var(--font-mono)',
+                fontWeight: 700,
+                background: 'var(--color-paper)',
+                color: 'var(--color-brand-600)',
+                outline: 'none',
+              }}
+              onFocus={e => e.target.style.borderColor = 'var(--color-brand-500)'}
+              onBlur={e => e.target.style.borderColor = 'var(--color-brand-300)'}
+            />
+            <span style={{ fontSize: '13px', color: 'var(--color-ink-soft)', whiteSpace: 'nowrap' }}>triệu/năm</span>
+            {budget && (
+              <button
+                onClick={() => setBudget('')}
+                style={{
+                  border: 'none',
+                  background: 'var(--color-line)',
+                  borderRadius: '8px',
+                  padding: '8px 12px',
+                  fontSize: '12px',
+                  color: 'var(--color-ink-soft)',
+                  cursor: 'pointer',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Xoá lọc
+              </button>
+            )}
+          </div>
+        </div>
 
+        {/* Kết quả lọc */}
+        {budgetNum && (
+          <div style={{
+            background: filtered.length > 0 ? 'var(--color-pass-50)' : 'var(--color-risk-50)',
+            border: `1.5px solid ${filtered.length > 0 ? 'var(--color-pass-200)' : 'var(--color-risk-200)'}`,
+            borderRadius: '10px',
+            padding: '10px 16px',
+            textAlign: 'center',
+            minWidth: '120px',
+          }}>
+            <div style={{
+              fontFamily: 'var(--font-mono)',
+              fontWeight: 900,
+              fontSize: '24px',
+              color: filtered.length > 0 ? 'var(--color-pass-600)' : 'var(--color-risk-600)',
+            }}>
+              {filtered.length}
+            </div>
+            <div style={{ fontSize: '11px', color: 'var(--color-ink-soft)' }}>
+              trường phù hợp
+            </div>
+          </div>
+        )}
+      </div>
       {/* Legend */}
       <div style={{ display: 'flex', gap: '16px', marginBottom: '16px' }}>
         {[
