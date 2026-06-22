@@ -8,6 +8,10 @@ import TopCombinationsTab from './components/tabs/TopCombinationsTab'
 import TuitionTab from './components/tabs/TuitionTab'
 import SchoolSuggestionTab from './components/tabs/SchoolSuggestionTab'
 import ChartTab from './components/tabs/ChartTab'
+
+// --- DÒNG MỚI THÊM: "Nhập khẩu" màn hình Holland vào App ---
+import HollandTestTab from './components/tabs/HollandTestTab'
+
 import { EMPTY_SCORES } from './utils/subjects'
 import { calculateAllCombinations, getTopCombinations } from './utils/scoring'
 
@@ -40,15 +44,15 @@ export default function App() {
 
       <main className="scroll-thin flex-1 overflow-y-auto">
         <div className="flex justify-end px-4 pt-4 sm:px-6 lg:px-10">
-  <button
-    onClick={openDrawer}
-    className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white
-               text-sm font-semibold rounded-xl hover:bg-indigo-700 transition-colors"
-  >
-    <ListChecks size={16} />
-    Nguyện vọng ({wishlist.length})
-  </button>
-</div>
+          <button
+            onClick={openDrawer}
+            className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white
+                       text-sm font-semibold rounded-xl hover:bg-indigo-700 transition-colors"
+          >
+            <ListChecks size={16} />
+            Nguyện vọng ({wishlist.length})
+          </button>
+        </div>
         <div className="mx-auto w-full max-w-5xl px-4 py-6 sm:px-6 sm:py-8 lg:px-10 lg:py-10">
           {activeTab === 'nhap-diem' && (
             <ScoreInputTab
@@ -78,7 +82,11 @@ export default function App() {
             <ChartTab allCombinationResults={allCombinationResults} />
           )}
           {activeTab === 'tuition' && <TuitionTab />}
+
+          {/* --- DÒNG MỚI THÊM: Hiện màn hình Holland khi người dùng đang ở tab 'holland' --- */}
+          {activeTab === 'holland' && <HollandTestTab />}
         </div>
+        
         <WishlistDrawer
           wishlist={wishlist}
           isOpen={isOpen}

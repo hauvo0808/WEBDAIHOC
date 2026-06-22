@@ -1,4 +1,4 @@
-import { PencilLine, ListOrdered, Landmark, LineChart, Banknote } from 'lucide-react'
+import { PencilLine, ListOrdered, Landmark, LineChart, Banknote, Compass } from 'lucide-react'
 
 export const TABS = [
   {
@@ -29,11 +29,19 @@ export const TABS = [
     description: 'Biến động 3 năm',
     icon: LineChart,
   },
-   {
-  id: 'tuition',
-  index: '05',
-  label: 'Học phí',
-  description: 'Biên độ học phí các trường',
-  icon: Banknote,
-},
+  {
+    id: 'tuition',
+    index: '05',
+    label: 'Học phí',
+    description: 'Biên độ học phí các trường',
+    icon: Banknote,
+  },
+  // NÚT MỚI THÊM Ở ĐÂY:
+  {
+    id: 'holland',
+    index: '06',
+    label: 'Trắc nghiệm Holland',
+    description: 'Khám phá tính cách',
+    icon: Compass,
+  },
 ]
