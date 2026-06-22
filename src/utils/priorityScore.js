@@ -10,12 +10,7 @@ export const KHU_VUC_OPTIONS = [
 export const DOI_TUONG_OPTIONS = [
   { value: 'none', label: 'Không thuộc diện ưu tiên', score: 0 },
   { value: 'DT1', label: 'Đối tượng 01', score: 2.0 },
-  { value: 'DT2', label: 'Đối tượng 02', score: 2.0 },
-  { value: 'DT3', label: 'Đối tượng 03', score: 2.0 },
-  { value: 'DT4', label: 'Đối tượng 04', score: 2.0 },
-  { value: 'DT5', label: 'Đối tượng 05', score: 1.0 },
-  { value: 'DT6', label: 'Đối tượng 06', score: 1.0 },
-  { value: 'DT7', label: 'Đối tượng 07', score: 1.0 },
+  { value: 'DT2', label: 'Đối tượng 02', score: 1.0 },
 ]
 
 const findScore = (options, value) =>
