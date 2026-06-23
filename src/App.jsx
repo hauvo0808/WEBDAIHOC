@@ -8,6 +8,7 @@ import TopCombinationsTab from './components/tabs/TopCombinationsTab'
 import TuitionTab from './components/tabs/TuitionTab'
 import SchoolSuggestionTab from './components/tabs/SchoolSuggestionTab'
 import ChartTab from './components/tabs/ChartTab'
+import ForumTab from './components/tabs/ForumTab'
 
 // --- DÒNG MỚI THÊM: "Nhập khẩu" màn hình Holland vào App ---
 import HollandTestTab from './components/tabs/HollandTestTab'
@@ -85,6 +86,7 @@ export default function App() {
 
           {/* --- DÒNG MỚI THÊM: Hiện màn hình Holland khi người dùng đang ở tab 'holland' --- */}
           {activeTab === 'holland' && <HollandTestTab />}
+           {activeTab === 'dien-dan' && <ForumTab />}
         </div>
         
         <WishlistDrawer

@@ -5,7 +5,7 @@ export const TABS = [
     id: 'nhap-diem',
     index: '01',
     label: 'Nhập điểm',
-    description: 'Học bạ & diện ưu tiên',
+    description: 'Nhập điểm & diện ưu tiên',
     icon: PencilLine,
   },
   {
@@ -18,14 +18,14 @@ export const TABS = [
   {
     id: 'goi-y-truong',
     index: '03',
-    label: 'Gợi ý trường',
+    label: 'Các trường gợi ý',
     description: 'Đối chiếu điểm chuẩn',
     icon: Landmark,
   },
   {
     id: 'bieu-do',
     index: '04',
-    label: 'Biểu đồ',
+    label: 'Biểu đồ điểm',
     description: 'Biến động 3 năm',
     icon: LineChart,
   },
@@ -33,7 +33,7 @@ export const TABS = [
     id: 'tuition',
     index: '05',
     label: 'Học phí',
-    description: 'Biên độ học phí các trường',
+    description: 'học phí trung bình các trường',
     icon: Banknote,
   },
   // NÚT MỚI THÊM Ở ĐÂY:
@@ -44,4 +44,5 @@ export const TABS = [
     description: 'Khám phá tính cách',
     icon: Compass,
   },
+   { id: 'dien-dan',   index: '05', label: 'Q&A',    description: 'Hỏi đáp thực',     icon: MessageCircle },
 ]
