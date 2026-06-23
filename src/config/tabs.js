@@ -1,4 +1,4 @@
-import { PencilLine, ListOrdered, Landmark, LineChart, Banknote, Compass } from 'lucide-react'
+import { PencilLine, ListOrdered, Landmark, LineChart, Banknote, Compass, MessageCircle  } from 'lucide-react'
 
 export const TABS = [
   {
