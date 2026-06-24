@@ -14,6 +14,7 @@ export const ALLOWED_DOMAINS = [
   { domain: 'hcmue.edu.vn',    label: 'ĐH Sư phạm TP.HCM' },
   { domain: 'iuh.edu.vn',      label: 'ĐH Công nghiệp TP.HCM' },
   { domain: 'ump.edu.vn',      label: 'ĐH Y Dược TP.HCM' },
+  { domain: 'ufm.edu.vn',      label: 'ĐH Tài chính marketing' },
 ]
 
 export function checkEmailDomain(email) {
