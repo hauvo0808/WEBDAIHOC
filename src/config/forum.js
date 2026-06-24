@@ -129,7 +129,7 @@ export const SEED_QUESTIONS = [
         id: 4,
         authorName: 'Trúc Phạm',
         authorEmail: 'PhamTruc@ufm.edu.vn',
-        authorSchool: 'ĐH Y Dược TP.HCM',
+        authorSchool: 'ĐH tài chính maketing ',
         content: ' đậu chắc r đó em',
         createdAt: Date.now() - 1000 * 60 * 60 * 24,
       },
